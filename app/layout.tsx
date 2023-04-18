@@ -1,5 +1,7 @@
 import './globals.css'
 import PromotionBanner from './components/PromotionBanner'
+import Navbar from './components/NavBar';
+import Footer from './components/Footer';
 
 import localFont from 'next/font/local';
 const eina01 = localFont({
@@ -30,7 +32,7 @@ const eina01 = localFont({
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
-import Navbar from './components/NavBar';
+import Script from 'next/script';
 config.autoAddCss = false;
 
 export const metadata = {
@@ -49,8 +51,9 @@ export default function RootLayout({
         <PromotionBanner />
         <Navbar />
         {children}
+        <Footer />
       </body>
-
+      <Script src="https://kit.fontawesome.com/01f54e04b1.js" />
     </html>
   )
 }

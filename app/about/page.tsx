@@ -2,7 +2,7 @@ const image = 'https://images.unsplash.com/photo-1531891437562-4301cf35b7e4';
 
 const About = () => {
   return (
-    <div className="grid grid-cols-2 w-5/6 mx-auto">
+    <div className="grid grid-cols-2 w-5/6 mx-auto mt-8 my-32">
       <div className="w-11/12 mr-auto">
         <h1 className="mt-8 mb-2 font-bold text-3xl">About Us</h1>
         <p>Here at Technica Automotive we not only help on your goals but also share the knowledge so everyone better understands vehicles and how we can get them running and looking amazing.</p>
