@@ -1,5 +1,7 @@
 import './globals.css'
-import localFont from 'next/font/local'
+import PromotionBanner from './components/PromotionBanner'
+
+import localFont from 'next/font/local';
 const eina01 = localFont({
   src: [
     {
@@ -26,6 +28,10 @@ const eina01 = localFont({
   variable: '--font-eina01',
 })
 
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
+
 export const metadata = {
   title: 'Technica Automotive',
   description: 'Automotive Detailing, Ceramic Coating, Paint Correction',
@@ -38,7 +44,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${eina01.variable} font-sans text-white bg-black`}>
-      <body>{children}</body>
+      <body>
+        <PromotionBanner />
+        {children}
+      </body>
+
     </html>
   )
 }
