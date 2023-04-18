@@ -30,6 +30,7 @@ const eina01 = localFont({
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
+import Navbar from './components/NavBar';
 config.autoAddCss = false;
 
 export const metadata = {
@@ -43,9 +44,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${eina01.variable} font-sans text-white bg-black`}>
+    <html lang="en" className={`${eina01.variable} font-sans `}>
       <body>
         <PromotionBanner />
+        <Navbar />
         {children}
       </body>
 
