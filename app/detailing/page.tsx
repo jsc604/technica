@@ -12,13 +12,16 @@ export default function Detailing() {
     setSelected(selection);
   };
 
-
   return (
     <main className="">
-      <div className="mx-auto w-5/6 md:w-3/5 flex justify-center rounded-md my-12">
+      <div className={`mx-auto w-5/6 md:w-3/5 flex justify-center rounded-md my-12
+      ${selected === 'maintenance' && 'shadow-full shadow-teal-500'}
+      ${selected === 'upgraded' && 'shadow-full shadow-cyan-400'}
+      ${selected === 'premium' && 'shadow-full shadow-amber-600'}
+      `}>
         <button
           onClick={() => handleClick('maintenance')}
-          className={`px-3.5 sm:px-8 py-2.5 w-full sm:w-1/3 rounded-md ${selected === 'maintenance' && 'bg-green-800'}`}
+          className={`px-3.5 sm:px-8 py-2.5 w-full sm:w-1/3 rounded-md ${selected === 'maintenance' && 'bg-teal-800'}`}
         >
           Maintenance
         </button>
@@ -35,9 +38,9 @@ export default function Detailing() {
           Premium
         </button>
       </div>
-      <PackageMaintenance />
-      <PackageUpgraded />
-      <PackagePremium />
+      {selected === 'maintenance' && <PackageMaintenance />}
+      {selected === 'upgraded' && <PackageUpgraded />}
+      {selected === 'premium' && <PackagePremium />}
     </main>
   )
 }
