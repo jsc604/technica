@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div className="shadow-lg">
-      <nav className="w-5/6 flex items-center py-5 justify-center md:justify-between mx-auto">
+      <nav className="w-5/6 flex items-center py-5 justify-center md:justify-between mx-auto text-center">
         <div className="w-1/6">
           <Link href="#">
             <Image src={logo} height={494} width={1475} alt="logo" layout="responsive"/>
