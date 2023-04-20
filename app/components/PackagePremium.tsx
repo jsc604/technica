@@ -40,6 +40,8 @@ const PackagePremium = () => {
             <li>Air Vents Addressed</li>
             <li>Crevasses Hand Detailed</li>
             <li>Rubber Mats Detailed</li>
+            <li>Fabric Restoration</li>
+            <li>PLastic, Trim and Seat Light Restoration</li>
           </div>
         </div>
         <div className="rounded-lg shadow-full shadow-amber-500 bg-black">
@@ -64,6 +66,8 @@ const PackagePremium = () => {
             <li>Air Vents Addressed</li>
             <li>Crevasses Hand Detailed</li>
             <li>Rubber Mats Detailed</li>
+            <li>Fabric Restoration</li>
+            <li>PLastic, Trim and Seat Light Restoration</li>
           </div>
         </div>
       </div>
