@@ -8,7 +8,7 @@ import 'swiper/swiper-bundle.css';
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
-const IntroCarousel = () => {
+const GalleryCarousel = () => {
   const images = [
     'https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13',
     'https://images.unsplash.com/photo-1529429617124-95b109e86bb8',
@@ -39,4 +39,4 @@ const IntroCarousel = () => {
   );
 };
 
-export default IntroCarousel;
+export default GalleryCarousel;

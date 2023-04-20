@@ -42,16 +42,11 @@ const Navbar = () => {
               <FontAwesomeIcon icon={faTimes} size="xl" />
             </span>
             <ul className="mx-auto mt-4 text-center">
-              <li className="mb-4"><Link href="#">Home</Link></li>
-              <li className="mb-4"><Link href="#">Shop</Link></li>
-              <li className="mb-4"><Link href="#">About</Link></li>
-              <li className="mb-4"><Link href="#">Contact</Link></li>
-              <li className="mb-4">
-                <Link href="#">
-                  <FontAwesomeIcon icon={faCartShopping} size='lg' />
-                  <span className="bg-indigo-500 rounded-full items-center text-gray-50 px-2 py-1 ml-1">8</span>
-                </Link>
-              </li>
+              <li className="mb-4"><Link href="/detailing">Detailing</Link></li>
+              <li className="mb-4"><Link href="#">Ceramic Coating</Link></li>
+              <li className="mb-4"><Link href="#">Get a quote</Link></li>
+              <li className="mb-4"><Link href="#">Products & Gear</Link></li>
+              <li className="mb-4"><Link href="/about">About</Link></li>
             </ul>
           </div>
         )}

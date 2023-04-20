@@ -1,3 +1,6 @@
+import { faClock } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const PackagePremium = () => {
   return (
     <div>
@@ -14,7 +17,8 @@ const PackagePremium = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 w-5/6 mx-auto mb-12">
         <div className="rounded-lg shadow-full shadow-amber-500 bg-black">
           <h2 className="font-semibold text-xl text-center p-4 rounded-t-lg bg-slate-800">Premium Exterior Detail</h2>
-          <h2 className="text-center text-3xl mt-8 mb-4">$325</h2>
+          <h2 className="text-center text-3xl mt-8">$325</h2>
+          <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 3.5 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
             <li>Exterior Wash</li>
             <li>Wheels Washed</li>
@@ -30,7 +34,8 @@ const PackagePremium = () => {
         </div>
         <div className="rounded-lg shadow-full shadow-amber-500 bg-black">
           <h2 className="font-semibold text-xl text-center p-4 rounded-t-lg bg-slate-800">Premium Interior Detail</h2>
-          <h2 className="text-center text-3xl mt-8 mb-4">$325</h2>
+          <h2 className="text-center text-3xl mt-8">$325</h2>
+          <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 3.5 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
             <li>Surfaces Wiped</li>
             <li>Windows Cleaned</li>
@@ -41,12 +46,13 @@ const PackagePremium = () => {
             <li>Crevasses Hand Detailed</li>
             <li>Rubber Mats Detailed</li>
             <li>Fabric Restoration</li>
-            <li>PLastic, Trim and Seat Light Restoration</li>
+            <li>Plastic, Trim and Seat Light Restoration</li>
           </div>
         </div>
         <div className="rounded-lg shadow-full shadow-amber-500 bg-black">
           <h2 className="font-semibold text-xl text-center p-4 rounded-t-lg bg-slate-800">Complete Premium Detail</h2>
-          <h2 className="text-center text-3xl mt-8 mb-4">$575</h2>
+          <h2 className="text-center text-3xl mt-8">$575</h2>
+          <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 6 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
             <li>Exterior Wash</li>
             <li>Wheels Washed</li>
@@ -67,7 +73,7 @@ const PackagePremium = () => {
             <li>Crevasses Hand Detailed</li>
             <li>Rubber Mats Detailed</li>
             <li>Fabric Restoration</li>
-            <li>PLastic, Trim and Seat Light Restoration</li>
+            <li>Plastic, Trim and Seat Light Restoration</li>
           </div>
         </div>
       </div>

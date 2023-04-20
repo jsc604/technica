@@ -17,9 +17,13 @@ module.exports = {
       },
       boxShadow: {
         'full': '0 0 12px 4px rgba(0, 0, 0, 0.3)',
-      }
-      
-      
+      },
+      height: {
+        '112': '28rem',
+        '128': '32rem',
+        '144': '36rem',
+        '160': '40rem',
+      },
     },
   },
   plugins: [],
