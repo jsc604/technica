@@ -8,6 +8,9 @@ import PackageChooser from "../components/PackageChooser";
 import GalleryCarousel from "../components/GalleryCarousel";
 import DetailingInfo from "../components/DetailingInfo";
 import BookingProcess from "../components/BookingProcess";
+import AddOns from "../components/AddOns";
+import Disclaimer from "../components/Disclaimer";
+import DetailingOutro from "../components/DetailingOutro";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
@@ -29,7 +32,10 @@ export default function Detailing() {
       {selected === 'maintenance' && <PackageMaintenance />}
       {selected === 'upgraded' && <PackageUpgraded />}
       {selected === 'premium' && <PackagePremium />}
-      <p className="text-center font-light text-sm">*** Extra Cost for Details With Heavy Soiled Vehicles ***</p>
+      <Disclaimer disclaimer="Extra Cost for Details With Heavy Soiled Vehicles"/>
+      <AddOns />
+      <Disclaimer disclaimer="Some Services Not Listed" />
+      <DetailingOutro />
     </main>
   )
 }

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import logo from "../../assets/images/technicaLogo.png";
 
@@ -42,11 +42,11 @@ const Navbar = () => {
               <FontAwesomeIcon icon={faTimes} size="xl" />
             </span>
             <ul className="mx-auto mt-4 text-center">
-              <li className="mb-4"><Link href="/detailing">Detailing</Link></li>
-              <li className="mb-4"><Link href="#">Ceramic Coating</Link></li>
-              <li className="mb-4"><Link href="#">Get a quote</Link></li>
-              <li className="mb-4"><Link href="#">Products & Gear</Link></li>
-              <li className="mb-4"><Link href="/about">About</Link></li>
+              <li className="mb-4" onClick={toggleSidebar}><Link href="/detailing">Detailing</Link></li>
+              <li className="mb-4" onClick={toggleSidebar}><Link href="#">Ceramic Coating</Link></li>
+              <li className="mb-4" onClick={toggleSidebar}><Link href="#">Get a quote</Link></li>
+              <li className="mb-4" onClick={toggleSidebar}><Link href="#">Products & Gear</Link></li>
+              <li className="mb-4" onClick={toggleSidebar}><Link href="/about">About</Link></li>
             </ul>
           </div>
         )}
