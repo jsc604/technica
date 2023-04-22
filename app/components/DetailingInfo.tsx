@@ -12,12 +12,14 @@ const DetailingInfo = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-5 gap-4 w-5/6 mx-auto">
         <div className="col-span-3 bg-black rounded-lg">
-          <h2 className="text-center text-3xl font-semibold p-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">From the Essential Maintenance</h2>
-          <div>
-            <h3>Maintenance</h3>
-            <h3>Upgraded</h3>
-            <h3>Premium</h3>
+          <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-semibold p-8 bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">From the Essential Maintenance</h2>
+          <div className=" font-semibold text-xl sm:text-2xl md:text-3xl w-3/5 mx-auto">
+            <h3 className="py-8 border-t border-l border-r border-sky-500 rounded-t-lg shadow-top-left-right shadow-sky-500">Maintenance</h3>
+            <h3 className="py-8 border-t border-l border-r border-indigo-500 rounded-t-lg shadow-top-left-right shadow-indigo-500">Upgraded</h3>
+            <h3 className="py-8 border-t border-l border-r border-rose-500 rounded-t-lg shadow-top-left-right shadow-rose-500">Premium</h3>
           </div>
+          <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-semibold p-8 bg-gradient-to-r from-indigo-500 to-rose-500 bg-clip-text text-transparent">To the Luxurious Premium</h2>
+
         </div>
       </div>
       {/* <p >
