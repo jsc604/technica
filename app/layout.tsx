@@ -48,8 +48,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${eina01.variable} font-sans `}>
       <body>
-        <PromotionBanner />
         <Navbar />
+        <PromotionBanner />
         {children}
         <Footer />
       </body>

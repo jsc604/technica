@@ -14,7 +14,6 @@ const DetailingOutro = () => {
           style={{ objectFit: 'cover', borderRadius: '0.5rem' }}
         />
       </div>
-     
     </div>
   )
 };

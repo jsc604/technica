@@ -14,7 +14,7 @@ const PackageChooser = ({ selected, setSelected }: PackageChooserProps) => {
   };
 
   return (
-    <div className={`mx-auto w-5/6 md:w-3/5 flex justify-center rounded-md my-12 bg-black
+    <div className={`mx-auto w-5/6 md:w-3/5 flex justify-center rounded-md mb-12 mt-20 bg-black
     ${selected === 'maintenance' && 'shadow-full shadow-teal-500'}
     ${selected === 'upgraded' && 'shadow-full shadow-cyan-400'}
     ${selected === 'premium' && 'shadow-full shadow-amber-600'}

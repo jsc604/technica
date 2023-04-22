@@ -20,19 +20,17 @@ export default function Detailing() {
 
   return (
     <main>
-      <h1 className="text-center mx-auto font-bold text-3xl my-24 w-5/6">
+      {/* <h1 className="text-center mx-auto font-bold text-3xl my-24 w-5/6">
         <span className="text-amber-500">Revitalize Your Ride <FontAwesomeIcon icon={faArrowRightLong} /></span> Exceptional Detailing Services for Unparalleled Results
-      </h1>
-      <div className="grid grid-cols-1 h-160 w-5/6 mx-auto">
-        <GalleryCarousel />
-      </div>
+      </h1> */}
       <DetailingInfo />
+      {/* <GalleryCarousel /> */}
       <BookingProcess />
       <PackageChooser selected={selected} setSelected={setSelected} />
       {selected === 'maintenance' && <PackageMaintenance />}
       {selected === 'upgraded' && <PackageUpgraded />}
       {selected === 'premium' && <PackagePremium />}
-      <Disclaimer disclaimer="Extra Cost for Details With Heavy Soiled Vehicles"/>
+      <Disclaimer disclaimer="Extra Cost for Details With Heavy Soiled Vehicles" />
       <AddOns />
       <Disclaimer disclaimer="Some Services Not Listed" />
       <DetailingOutro />

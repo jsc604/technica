@@ -17,25 +17,27 @@ const GalleryCarousel = () => {
   ];
 
   return (
-    <Swiper
-      navigation
-      pagination={{ clickable: true }}
-      autoplay={{ delay: 3000 }}
-      loop
-      effect="cube"
-      className="w-full h-full "
-    >
-      {images.map((image, index) => (
-        <SwiperSlide key={index}>
-          <Image
-            src={image}
-            alt={`Slide ${index}`}
-            fill
-            style={{ objectFit: "cover" }}
-          />
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <div className="grid grid-cols-1 h-160 w-5/6 mx-auto">
+      <Swiper
+        navigation
+        pagination={{ clickable: true }}
+        autoplay={{ delay: 3000 }}
+        loop
+        effect="cube"
+        className="w-full h-full "
+      >
+        {images.map((image, index) => (
+          <SwiperSlide key={index}>
+            <Image
+              src={image}
+              alt={`Slide ${index}`}
+              fill
+              style={{ objectFit: "cover" }}
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   );
 };
 
