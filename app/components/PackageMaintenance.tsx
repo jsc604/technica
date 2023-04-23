@@ -2,15 +2,15 @@ import { faCaretDown, faChevronDown, faChevronUp, faClock } from "@fortawesome/f
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Dispatch, SetStateAction } from "react";
 
-interface dropDownProps {
-  dropDown: boolean;
-  setDropDown: Dispatch<SetStateAction<boolean>>;
+interface infoDropDownProps {
+  infoDropDown: boolean;
+  setinfoDropDown: Dispatch<SetStateAction<boolean>>;
 }
 
-const PackageMaintenance = ({ dropDown, setDropDown }: dropDownProps) => {
+const PackageMaintenance = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) => {
 
   const handleClick = () => {
-    setDropDown(!dropDown);
+    setinfoDropDown(!infoDropDown);
   }
 
   return (
@@ -18,13 +18,13 @@ const PackageMaintenance = ({ dropDown, setDropDown }: dropDownProps) => {
       <div className="mx-auto w-5/6 mb-12 text-center">
         <button className="text-sky-400 rounded-full mx-auto" onClick={handleClick}>
           Learn More{' '}
-          {dropDown ? (
+          {infoDropDown ? (
             <FontAwesomeIcon icon={faChevronUp} />
           ) : (
             <FontAwesomeIcon icon={faChevronDown} />
           )}
         </button>
-        {dropDown && (
+        {infoDropDown && (
           <p>
             The Maintenance package offers an essential level of care for your vehicle,
             ensuring it remains clean and well-maintained. This comprehensive service

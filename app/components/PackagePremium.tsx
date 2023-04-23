@@ -2,15 +2,15 @@ import { faCaretDown, faChevronDown, faChevronUp, faClock } from "@fortawesome/f
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Dispatch, SetStateAction } from "react";
 
-interface dropDownProps {
-  dropDown: boolean;
-  setDropDown: Dispatch<SetStateAction<boolean>>;
+interface infoDropDownProps {
+  infoDropDown: boolean;
+  setinfoDropDown: Dispatch<SetStateAction<boolean>>;
 }
 
-const PackagePremium = ({ dropDown, setDropDown }: dropDownProps) => {
+const PackagePremium = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) => {
 
   const handleClick = () => {
-    setDropDown(!dropDown);
+    setinfoDropDown(!infoDropDown);
   }
 
   return (
@@ -18,13 +18,13 @@ const PackagePremium = ({ dropDown, setDropDown }: dropDownProps) => {
       <div className="mx-auto w-5/6 mb-12 text-center">
         <button className="text-rose-400 rounded-full mx-auto" onClick={handleClick}>
           Learn More{' '}
-          {dropDown ? (
+          {infoDropDown ? (
             <FontAwesomeIcon icon={faChevronUp} />
           ) : (
             <FontAwesomeIcon icon={faChevronDown} />
           )}
         </button>
-        {dropDown && (
+        {infoDropDown && (
           <p>
             The Premium package is the pinnacle of luxury and performance for your
             vehicle&apos;s care. Building upon the services provided in the Maintenance and

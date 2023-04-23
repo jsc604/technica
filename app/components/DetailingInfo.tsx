@@ -1,9 +1,7 @@
 import { Dispatch, SetStateAction } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import TitleBanner from "./TitleBanner";
 
-import bentley from "../../assets/images/iyslen.photo-0077.png";
 import ramBadge2 from '../../assets/images/ram badge 2.jpeg';
 import ionic from '../../assets/images/ionic.jpeg';
 import lexus from '../../assets/images/lexus.jpeg';
@@ -17,7 +15,6 @@ interface DetailingInfoProps {
 const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
   return (
     <div className="mx-auto text-center">
-      <TitleBanner image={bentley} alt="bentley" heading='Exceptional Detailing Services' />
       <div className="w-5/6 mx-auto my-20">
         <h2 className="font-semibold text-4xl my-4 text-stone-300">Carefully Curated Packages</h2>
         <h2 className="text-xl mt-4 mb-12 text-stone-400">Designed to rejuvenate your vehicle and make it the envy of everyone on the road</h2>
