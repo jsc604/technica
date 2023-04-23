@@ -28,6 +28,9 @@ module.exports = {
         '160': '40rem',
         '80vh': '80vh',
       },
+      screens: {
+        'ml': '900px',
+      },
     },
   },
   plugins: [],

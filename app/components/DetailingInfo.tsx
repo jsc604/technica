@@ -4,9 +4,9 @@ import Image from "next/image";
 import TitleBanner from "./TitleBanner";
 
 import bentley from "../../assets/images/iyslen.photo-0077.png";
-import ramBadge from '../../assets/images/ram badge.jpeg';
 import ramBadge2 from '../../assets/images/ram badge 2.jpeg';
 import ionic from '../../assets/images/ionic.jpeg';
+import lexus from '../../assets/images/lexus.jpeg';
 const bmwWheel = 'https://images.unsplash.com/photo-1586102975984-128b3026b94f';
 const infinitiInterior = 'https://images.unsplash.com/photo-1587350811436-9063f1c48ea4';
 
@@ -21,44 +21,55 @@ const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
       <div className="w-5/6 mx-auto my-20">
         <h2 className="font-semibold text-4xl my-4 text-stone-300">Carefully Curated Packages</h2>
         <h2 className="text-xl mt-4 mb-12 text-stone-400">Designed to rejuvenate your vehicle and make it the envy of everyone on the road</h2>
-        <Link href="/" className="bg-indigo-500 py-2.5 px-3.5 rounded-full">Book Now</Link>
+        <Link href="/" className="bg-indigo-600 py-2.5 px-3.5 rounded-full">Book Now</Link>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-8 w-5/6 mx-auto">
-        <div className="md:col-span-3 bg-black rounded-xl my-auto h-full flex flex-col justify-evenly">
-          <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-semibold p-8 bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">From The Essential Maintenance</h2>
-          <div className=" font-semibold text-xl sm:text-2xl md:text-3xl w-3/5 mx-auto">
-            <h3 className="hover:scale-105 py-8 border-t border-l border-r border-sky-500 rounded-t-xl shadow-top-left-right shadow-sky-500 hover:text-sky-500 cursor-pointer"
+      <div className="grid grid-cols-1 ml:grid-cols-5 gap-6 w-5/6 mx-auto">
+        <div className="ml:col-span-3 bg-black rounded-2xl sm:rounded-3xl my-auto h-full flex flex-col justify-evenly">
+          <h2 className="text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-4 md:p-6 ml:p-8 bg-gradient-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">From The Essential Maintenance</h2>
+          <div className=" font-semibold text-xl sm:text-2xl ml:text-3xl w-3/5 mx-auto">
+            <h3 className="hover:scale-105 py-6 ml:py-8 border-t border-l border-r border-sky-500 rounded-2xl sm:rounded-3xl shadow-top-left-right shadow-sky-500 hover:text-sky-500 cursor-pointer"
               onClick={() => setSelected('maintenance')}
             >
               Maintenance
             </h3>
-            <h3 className="hover:scale-105 py-8 border-t border-l border-r border-indigo-500 rounded-t-xl shadow-top-left-right shadow-indigo-500 hover:text-indigo-500 cursor-pointer"
+            <h3 className="hover:scale-105 py-6 ml:py-8 border-t border-l border-r border-indigo-600 rounded-2xl sm:rounded-3xl shadow-top-left-right shadow-indigo-600 hover:text-indigo-600 cursor-pointer"
               onClick={() => setSelected('upgraded')}
             >
               Upgraded
             </h3>
-            <h3 className="hover:scale-105 py-8 border-t border-l border-r border-rose-500 rounded-t-xl shadow-top-left-right shadow-rose-500 hover:text-rose-500 cursor-pointer"
+            <h3 className="hover:scale-105 py-6 ml:py-8 border-t border-l border-r border-rose-600 rounded-2xl sm:rounded-3xl shadow-top-left-right shadow-rose-600 hover:text-rose-600 cursor-pointer"
               onClick={() => setSelected('premium')}
             >
               Premium
             </h3>
           </div>
-          <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-semibold p-8 bg-gradient-to-r from-indigo-500 to-rose-500 bg-clip-text text-transparent">To The Luxurious Premium</h2>
+          <h2 className="text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-4 md:p-6 ml:p-8 bg-gradient-to-r from-indigo-600 to-rose-600 bg-clip-text text-transparent">To The Luxurious Premium</h2>
         </div>
-        <div className="md:col-span-2 space-y-8 flex flex-col">
-          <Image className="w-full h-full rounded-xl object-cover" src={ionic} width={1992} height={1500} alt="Ionic" />
-          <Image className="w-full h-full rounded-xl object-cover" src={infinitiInterior} width={1039} height={693} alt="infiniti interior" />
+        <div className="ml:col-span-2 space-y-6 flex flex-col">
+          <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={ionic} width={1992} height={1500} alt="Ionic" />
+          <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={infinitiInterior} width={1039} height={693} alt="infiniti interior" />
         </div>
       </div>
 
-      <div className="grid md:grid-cols-5 gap-6 w-5/6 mx-auto my-20">
-        <div className="md:col-span-3 rounded-lg bg-black max-h-96">
-          <Image className="w-full h-full rounded-xl object-cover" src={ramBadge2} width={1992} height={1500} alt="bmw wheel" />
+      <div className="grid ml:grid-cols-5 gap-6 w-5/6 mx-auto my-20">
+        <div className="ml:col-span-3 rounded-2xl sm:rounded-3xl bg-black max-h-96">
+          <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={ramBadge2} width={1992} height={1500} alt="bmw wheel" />
         </div>
-        <div className="md:col-span-2 rounded-lg bg-black my-auto h-full flex flex-col justify-center max-md:order-first">
-          <h3 className="capitalize text-center text-2xl sm:text-3xl md:text-4xl font-semibold p-8 bg-gradient-to-r from-sky-500 via-indigo-500 to-rose-500 bg-clip-text text-transparent">
+        <div className="ml:col-span-2 rounded-2xl sm:rounded-3xl bg-black my-auto h-full flex flex-col justify-center max-ml:order-first">
+          <h3 className="capitalize text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-8 bg-gradient-to-r from-sky-500 via-indigo-600 to-rose-600 bg-clip-text text-transparent">
             Meticulous Attention to Detail Catering to Your Needs
           </h3>
+        </div>
+      </div>
+
+      <div className="grid ml:grid-cols-5 gap-6 w-5/6 mx-auto my-20">
+        <div className="ml:col-span-2 rounded-2xl sm:rounded-3xl bg-black my-auto h-full flex flex-col justify-center max-ml:order-first">
+          <h3 className="capitalize text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-8 bg-gradient-to-r from-sky-500 via-indigo-600 to-rose-600 bg-clip-text text-transparent">
+            revel in the satisfaction of driving a car that looks and feels brand new
+          </h3>
+        </div>
+        <div className="ml:col-span-3 rounded-2xl sm:rounded-3xl bg-black max-h-96">
+          <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={'https://images.unsplash.com/photo-1494905998402-395d579af36f'} width={1992} height={1500} alt="bmw wheel" />
         </div>
       </div>
 

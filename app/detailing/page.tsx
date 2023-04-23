@@ -14,6 +14,7 @@ import DetailingOutro from "../components/DetailingOutro";
 
 export default function Detailing() {
   const [selected, setSelected] = useState('upgraded');
+  const [dropDown, setDropDown] = useState(false);
 
   return (
     <main>
@@ -24,13 +25,12 @@ export default function Detailing() {
       {/* <GalleryCarousel /> */}
       <BookingProcess />
       <PackageChooser selected={selected} setSelected={setSelected} />
-      {selected === 'maintenance' && <PackageMaintenance />}
-      {selected === 'upgraded' && <PackageUpgraded />}
-      {selected === 'premium' && <PackagePremium />}
+      {selected === 'maintenance' && <PackageMaintenance dropDown={dropDown} setDropDown={setDropDown}/>}
+      {selected === 'upgraded' && <PackageUpgraded dropDown={dropDown} setDropDown={setDropDown}/>}
+      {selected === 'premium' && <PackagePremium dropDown={dropDown} setDropDown={setDropDown}/>}
       <Disclaimer disclaimer="Extra Cost for Details With Heavy Soiled Vehicles" />
       <AddOns />
       <Disclaimer disclaimer="Some Services Not Listed" />
-      <DetailingOutro />
     </main>
   )
 }
