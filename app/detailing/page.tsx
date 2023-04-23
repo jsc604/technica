@@ -12,9 +12,6 @@ import AddOns from "../components/AddOns";
 import Disclaimer from "../components/Disclaimer";
 import DetailingOutro from "../components/DetailingOutro";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
-
 export default function Detailing() {
   const [selected, setSelected] = useState('upgraded');
 
@@ -23,7 +20,7 @@ export default function Detailing() {
       {/* <h1 className="text-center mx-auto font-bold text-3xl my-24 w-5/6">
         <span className="text-amber-500">Revitalize Your Ride <FontAwesomeIcon icon={faArrowRightLong} /></span> Exceptional Detailing Services for Unparalleled Results
       </h1> */}
-      <DetailingInfo />
+      <DetailingInfo setSelected={setSelected} />
       {/* <GalleryCarousel /> */}
       <BookingProcess />
       <PackageChooser selected={selected} setSelected={setSelected} />

@@ -4,7 +4,7 @@ const DetailingOutro = () => {
   return (
     <div className="flex flex-col justify-center mx-auto my-16">
       <div className="w-5/6 flex flex-col lg:flex-row mx-auto bg-black rounded-lg my-12 h-96">
-        <h2 className="uppercase font-bold text-xl md:text-3xl m-auto w-full lg:w-1/3 text-center p-4">revel in the satisfaction of driving a car that looks and feels brand new</h2>
+        <h2 className="uppercase font-bold text-xl md:text-3xl m-auto w-full lg:w-1/3 text-center p-4 bg-gradient-to-r from-sky-500 via-indigo-500 to-rose-500 bg-clip-text text-transparent">revel in the satisfaction of driving a car that looks and feels brand new</h2>
         <Image
           src={'https://images.unsplash.com/photo-1494905998402-395d579af36f'}
           height={1494}

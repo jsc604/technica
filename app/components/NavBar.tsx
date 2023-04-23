@@ -23,11 +23,11 @@ const Navbar = () => {
         </div>
         <div>
           <ul className="hidden md:flex uppercase">
-            <li className="pl-7 hover:text-sky-400"><Link href="/detailing">Detailing</Link></li>
-            <li className="pl-7 hover:text-sky-400"><Link href="#">Ceramic Coating</Link></li>
-            <li className="pl-7 hover:text-sky-400"><Link href="#">Get a quote</Link></li>
-            <li className="pl-7 hover:text-sky-400"><Link href="#">Products & Gear</Link></li>
-            <li className="pl-7 hover:text-sky-400"><Link href="/about">About</Link></li>
+            <li className="pl-7 hover:text-sky-500"><Link href="/detailing">Detailing</Link></li>
+            <li className="pl-7 hover:text-sky-500"><Link href="#">Ceramic Coating</Link></li>
+            <li className="pl-7 hover:text-sky-500"><Link href="#">Get a quote</Link></li>
+            <li className="pl-7 hover:text-sky-500"><Link href="#">Products & Gear</Link></li>
+            <li className="pl-7 hover:text-sky-500"><Link href="/about">About</Link></li>
           </ul>
         </div>
         {!sidebarVisible && (

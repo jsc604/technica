@@ -14,8 +14,8 @@ const PackageUpgraded = () => {
         choice for those seeking a more comprehensive detailing experience.
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 w-5/6 mx-auto mb-12">
-        <div className="rounded-lg shadow-full shadow-cyan-400 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-lg bg-cyan-800">Upgraded Exterior Detail</h2>
+        <div className="rounded-lg shadow-full shadow-indigo-500 bg-black">
+          <h2 className="font-semibold text-xl text-center p-4 rounded-t-lg bg-indigo-500">Upgraded Exterior Detail</h2>
           <h2 className="text-center text-3xl mt-8">$185</h2>
           <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 2 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
@@ -28,8 +28,8 @@ const PackageUpgraded = () => {
             <li>Exterior Sealant</li>
           </div>
         </div>
-        <div className="rounded-lg shadow-full shadow-cyan-400 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-lg bg-cyan-800">Upgraded Interior Detail</h2>
+        <div className="rounded-lg shadow-full shadow-indigo-500 bg-black">
+          <h2 className="font-semibold text-xl text-center p-4 rounded-t-lg bg-indigo-500">Upgraded Interior Detail</h2>
           <h2 className="text-center text-3xl mt-8">$200</h2>
           <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 2 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
@@ -43,8 +43,8 @@ const PackageUpgraded = () => {
             <li>Rubber Mats Detailed</li>
           </div>
         </div>
-        <div className="rounded-lg shadow-full shadow-cyan-400 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-lg bg-cyan-800">Complete Upgraded Detail</h2>
+        <div className="rounded-lg shadow-full shadow-indigo-500 bg-black">
+          <h2 className="font-semibold text-xl text-center p-4 rounded-t-lg bg-indigo-500">Complete Upgraded Detail</h2>
           <h2 className="text-center text-3xl mt-8">$350</h2>
           <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 3.5 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
