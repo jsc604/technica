@@ -2,11 +2,12 @@ import { Dispatch, SetStateAction } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import ramBadge2 from '../../assets/images/ram badge 2.jpeg';
-import ionic from '../../assets/images/ionic.jpeg';
-import lexus from '../../assets/images/lexus.jpeg';
+import ramBadge2 from '../../../assets/images/ram badge 2.jpeg';
+import ionic from '../../../assets/images/ionic.jpeg';
+import biTurbo from '../../../assets/images/biturbo.jpeg';
 const bmwWheel = 'https://images.unsplash.com/photo-1586102975984-128b3026b94f';
 const infinitiInterior = 'https://images.unsplash.com/photo-1587350811436-9063f1c48ea4';
+const mustang = 'https://images.unsplash.com/photo-1494905998402-395d579af36f';
 
 interface DetailingInfoProps {
   setSelected: Dispatch<SetStateAction<string>>;
@@ -14,11 +15,11 @@ interface DetailingInfoProps {
 
 const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
   return (
-    <div className="mx-auto text-center">
+    <section className="mx-auto text-center">
       <div className="w-5/6 mx-auto my-20">
         <h2 className="font-semibold text-4xl my-4 text-stone-300">Carefully Curated Packages</h2>
         <h2 className="text-xl mt-4 mb-12 text-stone-400">Designed to rejuvenate your vehicle and make it the envy of everyone on the road</h2>
-        <Link href="/" className="bg-indigo-600 py-2.5 px-3.5 rounded-full">Book Now</Link>
+        <Link href="/" className="bg-indigo-600 py-2.5 px-3.5 rounded-full hover:bg-indigo-500">Book Now</Link>
       </div>
       <div className="grid grid-cols-1 ml:grid-cols-5 gap-6 w-5/6 mx-auto">
         <div className="ml:col-span-3 bg-black rounded-2xl sm:rounded-3xl my-auto h-full flex flex-col justify-evenly">
@@ -43,7 +44,7 @@ const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
           <h2 className="text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-4 md:p-6 ml:p-8 bg-gradient-to-r from-indigo-600 to-rose-600 bg-clip-text text-transparent">To The Luxurious Premium</h2>
         </div>
         <div className="ml:col-span-2 space-y-6 flex flex-col">
-          <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={ionic} width={1992} height={1500} alt="Ionic" />
+          <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={biTurbo} width={1992} height={1500} alt="Ionic" />
           <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={infinitiInterior} width={1039} height={693} alt="infiniti interior" />
         </div>
       </div>
@@ -66,21 +67,10 @@ const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
           </h3>
         </div>
         <div className="ml:col-span-3 rounded-2xl sm:rounded-3xl bg-black max-h-96">
-          <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={'https://images.unsplash.com/photo-1494905998402-395d579af36f'} width={1992} height={1500} alt="bmw wheel" />
+          <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={mustang} width={1992} height={1500} alt="bmw wheel" />
         </div>
       </div>
-
-      {/* <p >
-          Our carefully curated packages, ranging from the essential Maintenance
-          to the luxurious Premium, cater to your unique needs and budget, ensuring a
-          personalized experience that will exceed your expectations. With our expert touch
-          and meticulous attention to detail, your car will not only look stunning but also
-          enjoy lasting protection from the elements. Don&apos;t miss out on the opportunity to
-          give your vehicle the VIP treatment it deserves. Book your appointment today and
-          let us unlock your car&apos;s true potential, revealing a breathtaking finish that will
-          leave you in awe.
-        </p> */}
-    </div>
+    </section>
   )
 }
 

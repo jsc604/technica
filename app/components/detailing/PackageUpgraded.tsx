@@ -14,9 +14,9 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
   }
 
   return (
-    <div>
+    <section>
       <div className="mx-auto w-5/6 mb-12 text-center">
-        <button className="text-indigo-400 rounded-full mx-auto" onClick={handleClick}>
+        <button className="text-indigo-400 rounded-full mx-auto hover:underline" onClick={handleClick}>
           Learn More{' '}
           {infoDropDown ? (
             <FontAwesomeIcon icon={faChevronUp} />
@@ -90,7 +90,7 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 };
 

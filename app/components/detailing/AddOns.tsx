@@ -15,16 +15,16 @@ const AddOns = ({ addOnDropDown, setAddOnDropDown }: addOnDropDownProps) => {
   }
 
   return (
-    <div className="mt-20 mb-8 w-5/6 mx-auto capitalize">
+    <section className="mt-12 mb-8 w-5/6 mx-auto capitalize">
       <h1 className="text-center font-semibold text-3xl text-stone-300">
         Additional Detailing & Cleaning Add Ons
       </h1>
       <span className="text-center text-3xl my-4 text-stone-300 flex justify-center">
         
         {addOnDropDown ? (
-          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronUp} />
+          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronUp} className="hover:text-stone-100 cursor-pointer" />
         ) : (
-          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronDown} />
+          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronDown} className="hover:text-stone-100 cursor-pointer" />
         )}
       </span>
       {addOnDropDown && (
@@ -57,7 +57,7 @@ const AddOns = ({ addOnDropDown, setAddOnDropDown }: addOnDropDownProps) => {
           </div>
         </div>
       )}
-    </div>
+    </section>
   )
 };
 

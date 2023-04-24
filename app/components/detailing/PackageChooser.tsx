@@ -12,7 +12,7 @@ const PackageChooser = ({ selected, setSelected }: PackageChooserProps) => {
   };
 
   return (
-    <div className="w-5/6 md:w-3/5 mx-auto">
+    <section className="w-5/6 md:w-3/5 mx-auto">
       <h2 className="capitalize flex justify-center text-center font-semibold text-4xl my-4 text-stone-300">Discover your ideal package</h2>
       <div className={`mx-auto flex justify-center rounded-full mb-12 mt-20 bg-black
     ${selected === 'maintenance' && 'shadow-full shadow-sky-600'}
@@ -38,7 +38,7 @@ const PackageChooser = ({ selected, setSelected }: PackageChooserProps) => {
           Premium
         </button>
       </div>
-    </div>
+    </section>
   )
 }
 
