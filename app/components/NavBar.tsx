@@ -25,9 +25,9 @@ const Navbar = () => {
           <ul className="hidden md:flex uppercase">
             <li className="pl-7 hover:text-sky-500"><Link href="/detailing">Detailing</Link></li>
             <li className="pl-7 hover:text-sky-500"><Link href="#">Ceramic Coating</Link></li>
-            <li className="pl-7 hover:text-sky-500"><Link href="#">Get a quote</Link></li>
             <li className="pl-7 hover:text-sky-500"><Link href="#">Products & Gear</Link></li>
             <li className="pl-7 hover:text-sky-500"><Link href="/about">About</Link></li>
+            <li className="pl-7 hover:text-sky-500"><Link href="/book">Book</Link></li>
           </ul>
         </div>
         {!sidebarVisible && (
@@ -42,11 +42,12 @@ const Navbar = () => {
               <FontAwesomeIcon icon={faTimes} size="xl" />
             </span>
             <ul className="mx-auto mt-4 text-center">
+              <li className="mb-4" onClick={toggleSidebar}><Link href="/">Home</Link></li>
               <li className="mb-4" onClick={toggleSidebar}><Link href="/detailing">Detailing</Link></li>
               <li className="mb-4" onClick={toggleSidebar}><Link href="#">Ceramic Coating</Link></li>
-              <li className="mb-4" onClick={toggleSidebar}><Link href="#">Get a quote</Link></li>
               <li className="mb-4" onClick={toggleSidebar}><Link href="#">Products & Gear</Link></li>
               <li className="mb-4" onClick={toggleSidebar}><Link href="/about">About</Link></li>
+              <li className="mb-4" onClick={toggleSidebar}><Link href="/book">Book</Link></li>
             </ul>
           </div>
         )}
