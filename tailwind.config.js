@@ -12,9 +12,6 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      fontFamily: {
-        sans: ['var(--font-eina01)'],
-      },
       boxShadow: {
         'full': '0 0 12px 4px rgba(0, 0, 0, 0.3)',
         // 'top-left-right': '0 -8px 12px -4px rgba(0, 0, 0, 0.3), -8px 0 12px -4px rgba(0, 0, 0, 0.3), 8px 0 12px -4px rgba(0, 0, 0, 0.3)',
