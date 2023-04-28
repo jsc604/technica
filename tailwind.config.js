@@ -32,9 +32,14 @@ module.exports = {
         '50vh': '50vh',
         '40vh': '40vh',
         '30vh': '30vh',
+        '20vh': '20vh',
       },
       screens: {
         'ml': '900px',
+      },
+      colors: {
+        'font': '#EDEDED',
+        'background': '#161617',
       },
     },
   },

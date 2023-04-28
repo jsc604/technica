@@ -21,19 +21,19 @@ const PackageChooser = ({ selected, setSelected }: PackageChooserProps) => {
     `}>
         <button
           onClick={() => handleClick('maintenance')}
-          className={`px-3.5 sm:px-8 py-2.5 w-full sm:w-1/3 rounded-full font-semibold ${selected === 'maintenance' && 'bg-sky-600'}`}
+          className={`px-3.5 sm:px-8 py-1.5 w-full sm:w-1/3 rounded-full font-semibold ${selected === 'maintenance' && 'bg-sky-600'}`}
         >
           Maintenance
         </button>
         <button
           onClick={() => handleClick('upgraded')}
-          className={`px-3.5 sm:px-8 py-2.5 w-full sm:w-1/3 rounded-full font-semibold ${selected === 'upgraded' && 'bg-indigo-600'}`}
+          className={`px-3.5 sm:px-8 py-1.5 w-full sm:w-1/3 rounded-full font-semibold ${selected === 'upgraded' && 'bg-indigo-600'}`}
         >
           Upgraded
         </button>
         <button
           onClick={() => handleClick('premium')}
-          className={`px-3.5 sm:px-8 py-2.5 w-full sm:w-1/3 rounded-full font-semibold  ${selected === 'premium' && 'bg-rose-600'}`}
+          className={`px-3.5 sm:px-8 py-1.5 w-full sm:w-1/3 rounded-full font-semibold  ${selected === 'premium' && 'bg-rose-600'}`}
         >
           Premium
         </button>
