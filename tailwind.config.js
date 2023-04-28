@@ -16,7 +16,6 @@ module.exports = {
       },
       boxShadow: {
         'full': '0 0 12px 4px rgba(0, 0, 0, 0.3)',
-        // 'top-left-right': '0 -8px 12px -4px rgba(0, 0, 0, 0.3), -8px 0 12px -4px rgba(0, 0, 0, 0.3), 8px 0 12px -4px rgba(0, 0, 0, 0.3)',
         'top-left-right': '0 -12px 12px -4px rgba(0, 0, 0, 0.3), -8px 0 12px -4px rgba(0, 0, 0, 0.3), 8px 0 12px -4px rgba(0, 0, 0, 0.3)',
 
       },
