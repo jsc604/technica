@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${titillium.className}`}>
+    <html lang="en" className={`${titillium.className} bg-background text-font`}>
       <body>
         <ContactBanner />
         <Navbar />

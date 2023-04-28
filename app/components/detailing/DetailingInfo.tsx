@@ -16,7 +16,7 @@ const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
       <div className="w-11/12 mx-auto my-20">
         <h2 className="font-semibold text-4xl my-4 text-stone-300">Carefully Curated Packages</h2>
         <h2 className="text-xl mt-4 mb-12 text-stone-400">Designed to rejuvenate your vehicle and make it the envy of everyone on the road</h2>
-        <Link href="/" className="bg-indigo-600 py-2.5 px-3.5 rounded-full hover:bg-indigo-500">Book Now</Link>
+        <Link href="/" className="bg-indigo-600 py-1.5 px-3.5 rounded-full hover:bg-indigo-500">Book Now</Link>
       </div>
       <div className="grid grid-cols-1 ml:grid-cols-5 gap-6 w-11/12 mx-auto">
         <div className="ml:col-span-3 bg-black rounded-2xl sm:rounded-3xl my-auto h-full flex flex-col justify-evenly">
