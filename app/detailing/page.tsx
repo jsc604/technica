@@ -28,7 +28,6 @@ export default function Detailing() {
       {selected === 'premium' && <PackagePremium infoDropDown={infoDropDown} setinfoDropDown={setinfoDropDown} />}
       <Disclaimer disclaimer="Extra Cost for Details With Heavy Soiled Vehicles" />
       <AddOns addOnDropDown={addOnDropDown} setAddOnDropDown={setAddOnDropDown} />
-      <Disclaimer disclaimer="Some Services Not Listed" />
       <DetailingOutro />
     </main>
   )

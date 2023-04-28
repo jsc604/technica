@@ -14,6 +14,7 @@ const titillium = Titillium_Web({
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import Script from 'next/script';
+import ContactBanner from './components/ContactBanner';
 config.autoAddCss = false;
 
 export const metadata = {
@@ -29,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${titillium.className}`}>
       <body>
+        <ContactBanner />
         <Navbar />
         <PromotionBanner />
         {children}
