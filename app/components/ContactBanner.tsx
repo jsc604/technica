@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const ContactBanner = () => {
   return (
-    <div className="border-b border-sky-500">
-      <div className="flex max-md:flex-col md:justify-between w-5/6 mx-auto max-sm:text-sm align-center py-1 text-center">
+    <div className="border-b border-white">
+      <div className="flex max-md:flex-col md:justify-between w-11/12 mx-auto max-sm:text-sm align-center py-1 text-center">
         <div className="flex max-md:mx-auto max-sm:flex-col">
           <h2>+1-778-835-2118&#8194;</h2>
           <span className="hidden sm:block">|</span>

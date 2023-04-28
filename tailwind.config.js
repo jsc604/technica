@@ -11,6 +11,8 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'bentley': "url('/assets/images/bentley-front-bw.jpeg)",
+        'porscheInt': "url('/assets/images/cayenne-int.jpeg')",
       },
       boxShadow: {
         'full': '0 0 12px 4px rgba(0, 0, 0, 0.3)',
@@ -19,11 +21,18 @@ module.exports = {
 
       },
       height: {
+        '100': '25rem',
+        '104': '26rem',
         '112': '28rem',
         '128': '32rem',
         '144': '36rem',
         '160': '40rem',
         '80vh': '80vh',
+        '70vh': '70vh',
+        '60vh': '60vh',
+        '50vh': '50vh',
+        '40vh': '40vh',
+        '30vh': '30vh',
       },
       screens: {
         'ml': '900px',

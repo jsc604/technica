@@ -15,7 +15,7 @@ const AddOns = ({ addOnDropDown, setAddOnDropDown }: addOnDropDownProps) => {
   }
 
   return (
-    <section className="mt-12 mb-8 w-5/6 mx-auto capitalize">
+    <section className="mt-12 mb-8 w-11/12 mx-auto capitalize">
       <h1 className="text-center font-semibold text-3xl text-stone-300">
         Additional Detailing & Cleaning Add Ons
       </h1>

@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <section className="bg-black border-b border-sky-500">
+    <section className="bg-black border-b border-white">
       <nav className="w-5/6 flex items-center justify-center md:justify-between mx-auto text-center py-2">
         <div className="w-1/6">
           <Link href="#">
@@ -44,9 +44,9 @@ const Navbar = () => {
             <ul className="mt-4 text-start">
               <li className="mb-4" onClick={toggleSidebar}><Link href="/">Home</Link></li>
               <li className="mb-4" onClick={toggleSidebar}><Link href="/detailing">Detailing</Link></li>
-              <li className="mb-4" onClick={toggleSidebar}><Link href="#">Ceramic Coating</Link></li>
-              <li className="mb-4" onClick={toggleSidebar}><Link href="#">Products & Gear</Link></li>
+              <li className="mb-4" onClick={toggleSidebar}><Link href="#">Products & Community</Link></li>
               <li className="mb-4" onClick={toggleSidebar}><Link href="/about">About</Link></li>
+              <li className="mb-4" onClick={toggleSidebar}><Link href="/about">Contact</Link></li>
               <li className="mb-4" onClick={toggleSidebar}><Link href="/book">Book</Link></li>
             </ul>
           </div>

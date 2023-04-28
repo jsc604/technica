@@ -17,7 +17,7 @@ const GalleryCarousel = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1 h-160 w-5/6 mx-auto">
+    <div className="grid grid-cols-1 h-160 w-11/12 mx-auto">
       <Swiper
         navigation
         pagination={{ clickable: true }}
