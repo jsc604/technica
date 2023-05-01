@@ -1,4 +1,4 @@
-import { faCaretDown, faChevronDown, faChevronUp, faClock } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown, faChevronUp, faClock } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Dispatch, SetStateAction } from "react";
 
@@ -16,7 +16,7 @@ const PackagePremium = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =>
   return (
     <section>
       <div className="mx-auto w-11/12 mb-12 text-center">
-        <button className="text-rose-400 rounded-full mx-auto hover:underline" onClick={handleClick}>
+        <button className="text-blue-100 rounded-full mx-auto hover:underline" onClick={handleClick}>
           Learn More{' '}
           {infoDropDown ? (
             <FontAwesomeIcon icon={faChevronUp} />
@@ -39,8 +39,8 @@ const PackagePremium = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 w-11/12 mx-auto mb-12">
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-rose-600 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-rose-600">Premium Exterior Detail</h2>
+        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-100 bg-black">
+          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-100 text-black">Premium Exterior Detail</h2>
           <h2 className="text-center text-3xl mt-8">$325</h2>
           <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 3.5 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
@@ -56,8 +56,8 @@ const PackagePremium = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =>
             <li>Surface Polish</li>
           </div>
         </div>
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-rose-600 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-rose-600">Premium Interior Detail</h2>
+        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-200 bg-black">
+          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-200 text-black">Premium Interior Detail</h2>
           <h2 className="text-center text-3xl mt-8">$325</h2>
           <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 3.5 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
@@ -73,8 +73,8 @@ const PackagePremium = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =>
             <li>Plastic, Trim and Seat Light Restoration</li>
           </div>
         </div>
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-rose-600 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-rose-600">Complete Premium Detail</h2>
+        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-200 bg-black">
+          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-200 text-black">Complete Premium Detail</h2>
           <h2 className="text-center text-3xl mt-8">$575</h2>
           <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 6 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
