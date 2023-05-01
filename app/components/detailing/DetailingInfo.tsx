@@ -20,38 +20,42 @@ const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
       </div>
       <div className="grid grid-cols-1 ml:grid-cols-5 gap-6 w-11/12 mx-auto">
         <div className="ml:col-span-3 bg-black rounded-2xl sm:rounded-3xl my-auto h-full flex flex-col justify-evenly">
-          <h2 className="text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-4 md:p-6 ml:p-8 bg-gradient-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">From The Essential Maintenance</h2>
+          <h2 className="text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-4 md:p-6 ml:p-8 bg-gradient-to-r from-slate-200 to-yellow-400 bg-clip-text text-transparent">From The Essential Maintenance</h2>
           <div className=" font-semibold text-xl sm:text-2xl ml:text-3xl w-3/5 mx-auto">
-            <h3 className="hover:scale-105 py-6 ml:py-8 border-t border-l border-r border-sky-500 rounded-2xl sm:rounded-3xl shadow-top-left-right shadow-sky-500 hover:text-sky-500 cursor-pointer"
+            <h3 className="hover:scale-105 ease-in duration-200 py-6 ml:py-8 border-t border-l border-r border-slate-200 rounded-2xl sm:rounded-3xl shadow-top-left-right shadow-slate-200 hover:text-slate-200 cursor-pointer"
               onClick={() => setSelected('maintenance')}
             >
               Maintenance
             </h3>
-            <h3 className="hover:scale-105 py-6 ml:py-8 border-t border-l border-r border-indigo-600 rounded-2xl sm:rounded-3xl shadow-top-left-right shadow-indigo-600 hover:text-indigo-600 cursor-pointer"
+            <h3 className="hover:scale-105 ease-in duration-200  py-6 ml:py-8 border-t border-l border-r border-yellow-400 rounded-2xl sm:rounded-3xl shadow-top-left-right shadow-yellow-400 hover:text-yellow-400 cursor-pointer"
               onClick={() => setSelected('upgraded')}
             >
               Upgraded
             </h3>
-            <h3 className="hover:scale-105 py-6 ml:py-8 border-t border-l border-r border-rose-600 rounded-2xl sm:rounded-3xl shadow-top-left-right shadow-rose-600 hover:text-rose-600 cursor-pointer"
+            <h3 className="hover:scale-105 ease-in duration-200 py-6 ml:py-8 border-t border-l border-r border-blue-100 rounded-2xl sm:rounded-3xl shadow-top-left-right shadow-blue-100 hover:text-blue-100 cursor-pointer"
               onClick={() => setSelected('premium')}
             >
               Premium
             </h3>
           </div>
-          <h2 className="text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-4 md:p-6 ml:p-8 bg-gradient-to-r from-indigo-600 to-rose-600 bg-clip-text text-transparent">To The Luxurious Premium</h2>
+          <h2 className="text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-4 md:p-6 ml:p-8 bg-gradient-to-r from-yellow-400 to-blue-100 bg-clip-text text-transparent">To The Luxurious Premium</h2>
         </div>
         <div className="ml:col-span-2 space-y-6 flex flex-col">
-          <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={lexusFront} width={1600} height={1248} alt="lexux front" />
-          <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={infinitiInterior} width={1039} height={693} alt="infiniti interior" />
+          <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl">
+            <Image className="w-full h-full object-cover hover:scale-110 ease-in duration-200" src={lexusFront} width={1600} height={1248} alt="lexux front" />
+          </div>
+          <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl">
+            <Image className="w-full h-full object-cover hover:scale-110 ease-in duration-200" src={infinitiInterior} width={1039} height={693} alt="infiniti interior" />
+          </div>
         </div>
       </div>
 
       <div className="grid ml:grid-cols-5 gap-6 w-11/12 mx-auto my-20">
-        <div className="ml:col-span-3 rounded-2xl sm:rounded-3xl bg-black max-h-96">
-          <Image className="w-full h-full rounded-2xl sm:rounded-3xl object-cover" src={skylineSide} width={1600} height={1204} alt="skyline side" />
+        <div className="ml:col-span-3 rounded-2xl sm:rounded-3xl bg-black max-h-96 relative overflow-hidden">
+          <Image className="w-full h-full object-cover hover:scale-110 ease-in duration-200" src={skylineSide} width={1600} height={1204} alt="skyline side" />
         </div>
         <div className="ml:col-span-2 rounded-2xl sm:rounded-3xl bg-black my-auto h-full flex flex-col justify-center max-ml:order-first">
-          <h3 className="capitalize text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-8 bg-gradient-to-r from-sky-500 via-indigo-600 to-rose-600 bg-clip-text text-transparent">
+          <h3 className="capitalize text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-8 bg-gradient-to-r from-slate-200 via-yellow-400 to-blue-200 bg-clip-text text-transparent">
             revive your ride with a deep interior clean
           </h3>
         </div>

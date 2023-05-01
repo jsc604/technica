@@ -40,6 +40,9 @@ module.exports = {
       colors: {
         'font': '#EDEDED',
         'background': '#161617',
+        'silver': '#c0c0c0',
+        'gold': '#FFD700',
+        'diamond': '#b9f2ff',
       },
     },
   },
