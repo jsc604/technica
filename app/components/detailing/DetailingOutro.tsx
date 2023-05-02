@@ -13,7 +13,7 @@ const DetailingOutro = () => {
       </div>
       <div className="grid ml:grid-cols-5 gap-6 w-11/12 mx-auto my-20">
         <div className="ml:col-span-2 rounded-2xl sm:rounded-3xl bg-black my-auto h-full flex flex-col justify-center">
-          <h3 className="capitalize text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-8 bg-gradient-to-r from-slate-200 via-yellow-400 to-blue-100 bg-clip-text text-transparent">
+          <h3 className="capitalize text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-8 bg-gradient-to-r from-slate-200 via-blue-100 to-yellow-300 bg-clip-text text-transparent">
             from interior to exterior, we leave no detail overlooked
           </h3>
         </div>
