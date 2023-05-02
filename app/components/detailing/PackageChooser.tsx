@@ -16,8 +16,8 @@ const PackageChooser = ({ selected, setSelected }: PackageChooserProps) => {
       <h2 className="capitalize flex justify-center text-center font-semibold text-4xl my-4 text-stone-300">Discover your ideal package</h2>
       <div className={`mx-auto flex justify-center rounded-full mb-12 mt-20 bg-black
     ${selected === 'maintenance' && 'shadow-full shadow-slate-200'}
-    ${selected === 'upgraded' && 'shadow-full shadow-yellow-400'}
-    ${selected === 'premium' && 'shadow-full shadow-blue-100'}
+    ${selected === 'upgraded' && 'shadow-full shadow-blue-100'}
+    ${selected === 'premium' && 'shadow-full shadow-yellow-300'}
     `}>
         <button
           onClick={() => handleClick('maintenance')}
@@ -27,13 +27,13 @@ const PackageChooser = ({ selected, setSelected }: PackageChooserProps) => {
         </button>
         <button
           onClick={() => handleClick('upgraded')}
-          className={`px-3.5 sm:px-8 py-1.5 w-full sm:w-1/3 rounded-full font-semibold ${selected === 'upgraded' && 'bg-yellow-400 text-black'}`}
+          className={`px-3.5 sm:px-8 py-1.5 w-full sm:w-1/3 rounded-full font-semibold ${selected === 'upgraded' && 'bg-blue-100 text-black'}`}
         >
           Upgraded
         </button>
         <button
           onClick={() => handleClick('premium')}
-          className={`px-3.5 sm:px-8 py-1.5 w-full sm:w-1/3 rounded-full font-semibold  ${selected === 'premium' && 'bg-blue-100 text-black'}`}
+          className={`px-3.5 sm:px-8 py-1.5 w-full sm:w-1/3 rounded-full font-semibold  ${selected === 'premium' && 'bg-yellow-300 text-black'}`}
         >
           Premium
         </button>
