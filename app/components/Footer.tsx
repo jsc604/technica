@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="my-4 text-stone-300 text-sm font-light flex flex-col md:flex-row items-center md:justify-between w-11/12 mx-auto">
+    <footer className="my-4 text-sm font-light flex flex-col md:flex-row items-center md:justify-between w-11/12 mx-auto">
       <div className="flex sm:flex-row flex-col text-center mb-2">
         <p>Copyright &copy;2021 Technica Automotive&nbsp;</p>
         <p>- All Rights Reserved</p>

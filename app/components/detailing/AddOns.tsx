@@ -16,15 +16,15 @@ const AddOns = ({ addOnDropDown, setAddOnDropDown }: addOnDropDownProps) => {
 
   return (
     <section className="mt-12 mb-8 w-11/12 mx-auto capitalize">
-      <h1 className="text-center font-semibold text-3xl text-stone-300">
+      <h1 className="text-center font-semibold text-3xl ml:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl ">
         Additional Detailing & Cleaning Add Ons
       </h1>
-      <span className="text-center text-3xl my-4 text-stone-300 flex justify-center">
+      <span className="text-center text-3xl my-4 flex justify-center">
         
         {addOnDropDown ? (
-          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronUp} className="hover:text-stone-100 cursor-pointer" />
+          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronUp} className="hover:text-blue-400 hover:bg-white hover:rounded-full cursor-pointer" />
         ) : (
-          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronDown} className="hover:text-stone-100 cursor-pointer" />
+          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronDown} className="hover:text-blue-400 hover:bg-white hover:rounded-full cursor-pointer" />
         )}
       </span>
       {addOnDropDown && (
@@ -32,7 +32,7 @@ const AddOns = ({ addOnDropDown, setAddOnDropDown }: addOnDropDownProps) => {
           <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-blue-600">
             <div className="text-center bg-blue-600 rounded-t-2xl sm:rounded-t-3xl p-4">
               <h2 className="font-semibold text-xl">Exterior Add-Ons &  Options</h2>
-              <p className="font-light text-sm italic text-stone-300">*Some Preparation / Pre-Detail Processes May Be Required*</p>
+              <p className="font-light text-sm italic">*Some Preparation / Pre-Detail Processes May Be Required*</p>
             </div>
             <AddOnItems title='Ceramic Coating paint (1 Year)' price='$150' description='One Year Protective Coating' />
             <AddOnItems title='Ceramic Coating Windows' price='$50 / window set or windshield' description='One Year Coating' />
@@ -47,7 +47,7 @@ const AddOns = ({ addOnDropDown, setAddOnDropDown }: addOnDropDownProps) => {
           <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-blue-600">
             <div className="text-center bg-blue-600 rounded-t-2xl sm:rounded-t-3xl p-4">
               <h2 className="font-semibold text-xl">Interior Add-Ons &  Options</h2>
-              <p className="font-light text-sm italic text-stone-300">*Some Preparation / Pre-Detail Processes May Be Required*</p>
+              <p className="font-light text-sm italic">*Some Preparation / Pre-Detail Processes May Be Required*</p>
             </div>
             <AddOnItems title='Carpet shampoo & extraction' price='$35' description='Interior carpets, trunk, and removable fabric mats' />
             <AddOnItems title='seat / upholstery shampoo' price='$35' description='seats & upholstery detailed' />
