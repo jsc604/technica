@@ -17,7 +17,7 @@ const PackageChooser = ({ selected, setSelected }: PackageChooserProps) => {
       <div className={`mx-auto flex justify-center rounded-full mb-12 mt-20 bg-black
     ${selected === 'maintenance' && 'shadow-full shadow-slate-200'}
     ${selected === 'upgraded' && 'shadow-full shadow-blue-200'}
-    ${selected === 'premium' && 'shadow-full shadow-yellow-300'}
+    ${selected === 'premium' && 'shadow-full shadow-yellow-200'}
     `}>
         <button
           onClick={() => handleClick('maintenance')}
@@ -33,7 +33,7 @@ const PackageChooser = ({ selected, setSelected }: PackageChooserProps) => {
         </button>
         <button
           onClick={() => handleClick('premium')}
-          className={`px-3.5 sm:px-8 py-1.5 w-full sm:w-1/3 rounded-full font-semibold  ${selected === 'premium' && 'bg-yellow-300 text-black'}`}
+          className={`px-3.5 sm:px-8 py-1.5 w-full sm:w-1/3 rounded-full font-semibold  ${selected === 'premium' && 'bg-yellow-200 text-black'}`}
         >
           Premium
         </button>
