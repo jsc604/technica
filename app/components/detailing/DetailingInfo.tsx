@@ -32,13 +32,13 @@ const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
             >
               Upgraded
             </h3>
-            <h3 className="hover:scale-105 ease-in duration-200 py-6 ml:py-8 border-t border-l border-r border-yellow-300 rounded-2xl sm:rounded-3xl shadow-top-left-right shadow-yellow-300 hover:text-yellow-300 cursor-pointer"
+            <h3 className="hover:scale-105 ease-in duration-200 py-6 ml:py-8 border-t border-l border-r border-yellow-200 rounded-2xl sm:rounded-3xl shadow-top-left-right shadow-yellow-200 hover:text-yellow-200 cursor-pointer"
               onClick={() => setSelected('premium')}
             >
               Premium
             </h3>
           </div>
-          <h2 className="text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-4 md:p-6 ml:p-8 bg-gradient-to-r from-blue-200 to-yellow-300 bg-clip-text text-transparent">To The Luxurious Premium</h2>
+          <h2 className="text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-4 md:p-6 ml:p-8 bg-gradient-to-r from-blue-200 to-yellow-200 bg-clip-text text-transparent">To The Luxurious Premium</h2>
         </div>
         <div className="ml:col-span-2 space-y-6 flex flex-col">
           <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl">
@@ -55,7 +55,7 @@ const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
           <Image className="w-full h-full object-cover hover:scale-110 ease-in duration-200" src={skylineSide} width={1600} height={1204} alt="skyline side" />
         </div>
         <div className="ml:col-span-2 rounded-2xl sm:rounded-3xl bg-black my-auto h-full flex flex-col justify-center max-ml:order-first">
-          <h3 className="capitalize text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-8 bg-gradient-to-r from-slate-200 via-blue-200 to-yellow-300 bg-clip-text text-transparent">
+          <h3 className="capitalize text-center text-2xl sm:text-3xl ml:text-4xl font-semibold p-8 bg-gradient-to-r from-slate-200 via-blue-200 to-yellow-200 bg-clip-text text-transparent">
             revive your ride with a deep interior clean
           </h3>
         </div>
