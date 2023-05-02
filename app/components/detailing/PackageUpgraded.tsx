@@ -16,7 +16,7 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
   return (
     <section>
       <div className="mx-auto w-11/12 mb-12 text-center">
-        <button className="text-blue-100 rounded-full mx-auto hover:underline" onClick={handleClick}>
+        <button className="text-blue-200 rounded-full mx-auto hover:underline" onClick={handleClick}>
           Learn More{' '}
           {infoDropDown ? (
             <FontAwesomeIcon icon={faChevronUp} />
@@ -38,8 +38,8 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 w-11/12 mx-auto mb-12">
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-100 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-100 text-black">Upgraded Exterior Detail</h2>
+        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-200 bg-black">
+          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-200 text-black">Upgraded Exterior Detail</h2>
           <h2 className="text-center text-3xl mt-8">$185</h2>
           <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 2 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
@@ -52,8 +52,8 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
             <li>Exterior Sealant</li>
           </div>
         </div>
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-100 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-100 text-black">Upgraded Interior Detail</h2>
+        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-200 bg-black">
+          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-200 text-black">Upgraded Interior Detail</h2>
           <h2 className="text-center text-3xl mt-8">$200</h2>
           <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 2 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
@@ -67,8 +67,8 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
             <li>Rubber Mats Detailed</li>
           </div>
         </div>
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-100 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-100 text-black">Complete Upgraded Detail</h2>
+        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-200 bg-black">
+          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-200 text-black">Complete Upgraded Detail</h2>
           <h2 className="text-center text-3xl mt-8">$350</h2>
           <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 3.5 hours</p>
           <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
