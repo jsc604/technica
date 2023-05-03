@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['images.unsplash.com', 'photos.google.com'],
+    domains: ['images.unsplash.com', 'photos.google.com', 'lh3.googleusercontent.com'],
   },
 }
 

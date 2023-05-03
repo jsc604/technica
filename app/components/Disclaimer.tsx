@@ -6,7 +6,7 @@ const Disclaimer = ({ disclaimer }: DisclaimerProps) => {
   return (
     <div className="flex w-11/12 justify-center mx-auto">
       <span>***</span>
-      <p className="text-center font-light text-sm text-stone-300">{disclaimer}</p>
+      <p className="text-center font-light text-sm">{disclaimer}</p>
       <span>***</span>
     </div>
   )

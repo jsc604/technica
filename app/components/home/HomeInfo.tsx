@@ -7,7 +7,7 @@ const HomeInfo = () => {
       <div className="items-center flex flex-col justify-center">
         <h1 className="text-5xl font-bold">Technica Automotive</h1>
         <h2 className="text-2xl font-semibold">Detailing, Paint Correction, and Ceramic Coating</h2>
-        <Link href="/book" className="bg-indigo-600 py-1.5 px-3.5 my-4 rounded-full hover:bg-indigo-500">Book Now</Link>       
+        <Link href="/book" className="bg-sky-600 py-1.5 px-3.5 my-4 rounded-full hover:bg-sky-500">Book Now</Link>       
         <h2 className="text-2xl font-semibold">What makes Technica Automotive a good choice?</h2>
         <ul className="text-xl mx-auto">
           <li>&#x2022; Certified in auto detailing since 2021</li>

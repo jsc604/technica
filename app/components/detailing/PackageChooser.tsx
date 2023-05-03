@@ -13,7 +13,7 @@ const PackageChooser = ({ selected, setSelected }: PackageChooserProps) => {
 
   return (
     <section className="w-11/12 md:w-3/5 mx-auto">
-      <h2 className="capitalize flex justify-center text-center font-semibold text-4xl my-4 text-stone-300">Discover your ideal package</h2>
+      <h2 className="capitalize flex justify-center text-center font-semibold text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl my-4">Discover your ideal package</h2>
       <div className={`mx-auto flex justify-center rounded-full mb-12 mt-20 bg-black
     ${selected === 'maintenance' && 'shadow-full shadow-slate-200'}
     ${selected === 'upgraded' && 'shadow-full shadow-blue-200'}
