@@ -23,11 +23,11 @@ const Navbar = () => {
         </div>
         <div>
           <ul className="hidden md:flex uppercase">
-            <li className="pl-7"><Link className="hover:text-sky-500" href="/detailing">Detailing</Link></li>
-            <li className="pl-7"><Link className="hover:text-sky-500" href="#">Products & Community</Link></li>
-            <li className="pl-7"><Link className="hover:text-sky-500" href="/about">About</Link></li>
-            <li className="pl-7"><Link className="hover:text-sky-500" href="/about">Contact</Link></li>
-            <li className="pl-7"><Link href="/book" className="border border-white rounded-md py-0 px-3 hover:bg-white hover:text-black">Book</Link></li>
+            <li className="pl-7"><Link className="hover:text-blue-400" href="/detailing">Detailing</Link></li>
+            <li className="pl-7"><Link className="hover:text-blue-400" href="/products">Products & Community</Link></li>
+            <li className="pl-7"><Link className="hover:text-blue-400" href="/about">About</Link></li>
+            <li className="pl-7"><Link className="hover:text-blue-400" href="/contact">Contact</Link></li>
+            <li className="pl-7"><Link href="/book" className="border border-white rounded-md py-0 px-3 hover:bg-blue-500 hover:border-blue-500">Book</Link></li>
           </ul>
         </div>
         {!sidebarVisible && (
@@ -44,9 +44,9 @@ const Navbar = () => {
             <ul className="mt-4 text-start">
               <li className="mb-4" onClick={toggleSidebar}><Link href="/">Home</Link></li>
               <li className="mb-4" onClick={toggleSidebar}><Link href="/detailing">Detailing</Link></li>
-              <li className="mb-4" onClick={toggleSidebar}><Link href="#">Products & Community</Link></li>
+              <li className="mb-4" onClick={toggleSidebar}><Link href="/products">Products & Community</Link></li>
               <li className="mb-4" onClick={toggleSidebar}><Link href="/about">About</Link></li>
-              <li className="mb-4" onClick={toggleSidebar}><Link href="/about">Contact</Link></li>
+              <li className="mb-4" onClick={toggleSidebar}><Link href="/contact">Contact</Link></li>
               <li className="mb-4" onClick={toggleSidebar}><Link href="/book">Book</Link></li>
             </ul>
           </div>

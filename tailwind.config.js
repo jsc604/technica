@@ -38,6 +38,7 @@ module.exports = {
       colors: {
         'font': '#EDEDED',
         'background': '#161617',
+        'gold': '#FFD700',
       },
     },
   },

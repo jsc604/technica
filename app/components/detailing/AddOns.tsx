@@ -22,15 +22,15 @@ const AddOns = ({ addOnDropDown, setAddOnDropDown }: addOnDropDownProps) => {
       <span className="text-center text-3xl my-4 flex justify-center">
         
         {addOnDropDown ? (
-          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronUp} className="hover:text-blue-400 hover:bg-white hover:rounded-full cursor-pointer" />
+          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronUp} className="hover:text-emerald-400 hover:bg-white hover:rounded-full cursor-pointer" />
         ) : (
-          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronDown} className="hover:text-blue-400 hover:bg-white hover:rounded-full cursor-pointer" />
+          <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronDown} className="hover:text-emerald-400 hover:bg-white hover:rounded-full cursor-pointer" />
         )}
       </span>
       {addOnDropDown && (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-blue-600">
-            <div className="text-center bg-blue-600 rounded-t-2xl sm:rounded-t-3xl p-4">
+          <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-emerald-400">
+            <div className="text-center bg-emerald-400 rounded-t-2xl sm:rounded-t-3xl p-4 text-black">
               <h2 className="font-semibold text-xl">Exterior Add-Ons &  Options</h2>
               <p className="font-light text-sm italic">*Some Preparation / Pre-Detail Processes May Be Required*</p>
             </div>
@@ -44,8 +44,8 @@ const AddOns = ({ addOnDropDown, setAddOnDropDown }: addOnDropDownProps) => {
             <AddOnItems title='decal removal' price='$5' description='price varies depending on size' />
           </div>
 
-          <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-blue-600">
-            <div className="text-center bg-blue-600 rounded-t-2xl sm:rounded-t-3xl p-4">
+          <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-emerald-400">
+            <div className="text-center bg-emerald-400 rounded-t-2xl sm:rounded-t-3xl p-4 text-black">
               <h2 className="font-semibold text-xl">Interior Add-Ons &  Options</h2>
               <p className="font-light text-sm italic">*Some Preparation / Pre-Detail Processes May Be Required*</p>
             </div>
