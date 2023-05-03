@@ -16,7 +16,7 @@ const TopCall = () => {
         />
         <div className="flex justify-center w-full absolute top-3/4 left-0 z-20">
           <Link
-            className="text-center bg-sky-600 w-fit min-w-[200px] md:min-w-[300px] hover:bg-sky-500 text-xl sm:text-3xl text-white px-6 py-2 rounded-md font-semibold transform -translate-y-1/2"
+            className="text-center bg-blue-500 w-fit min-w-[200px] md:min-w-[300px] hover:bg-blue-400 text-xl sm:text-3xl text-white px-6 py-2 rounded-md font-semibold transform -translate-y-1/2"
             href="/book"
           >
             Book Vehicle Coating
@@ -33,7 +33,7 @@ const TopCall = () => {
         />
         <div className="flex justify-center w-full absolute top-3/4 left-0 z-20">
           <Link
-            className="text-center bg-sky-600 w-fit min-w-[200px] md:min-w-[300px] hover:bg-sky-500 text-xl sm:text-3xl text-white px-6 py-2 rounded-md font-semibold transform -translate-y-1/2"
+            className="text-center bg-blue-500 w-fit min-w-[200px] md:min-w-[300px] hover:bg-blue-400 text-xl sm:text-3xl text-white px-6 py-2 rounded-md font-semibold transform -translate-y-1/2"
             href="/book"
           >
             Book Detailing
