@@ -58,6 +58,7 @@ const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
           <h3 className="capitalize text-center text-2xl sm:text-3xl ml:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-semibold p-8 bg-gradient-to-r from-slate-200 via-blue-200 to-yellow-200 bg-clip-text text-transparent">
             revive your ride with a deep interior clean
           </h3>
+          <p className="w-11/12 mx-auto">Experience the unparalleled freshness of a deep interior clean as our expert car detailing team revives your ride, making it feel like new. <br/> <Link href="/book" className="underline text-sky-500">Book your appointment now</Link> and elevate your driving experience.</p>
         </div>
       </div>
     </section>

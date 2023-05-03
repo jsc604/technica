@@ -16,6 +16,7 @@ const DetailingOutro = () => {
           <h3 className="capitalize text-center text-2xl sm:text-3xl ml:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-semibold p-8 bg-gradient-to-r from-slate-200 via-blue-200 to-yellow-200 bg-clip-text text-transparent">
             from interior to exterior, we leave no detail overlooked
           </h3>
+          <p className="w-11/12 mx-auto">Rediscover the beauty of your vehicle with our comprehensive detailing services, meticulously addressing every aspect from the interior to the exterior, and indulge in the satisfaction of driving a car that looks and feels brand new.</p>
         </div>
         <div className="ml:col-span-1 rounded-2xl sm:rounded-3xl bg-black max-h-96 xl:max-h-104 2xl:max-h-128 relative overflow-hidden">
           <Image className="w-full h-full object-cover hover:scale-110 ease-in duration-200" src={lexus} width={1600} height={1204} alt="lexus" />
