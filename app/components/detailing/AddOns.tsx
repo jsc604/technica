@@ -1,6 +1,6 @@
 import AddOnItems from "./AddOnItems";
 import { Dispatch, SetStateAction } from "react";
-import { faChevronDown, faChevronUp, faCircleChevronDown, faCircleChevronUp } from "@fortawesome/free-solid-svg-icons";
+import { faCircleChevronDown, faCircleChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface addOnDropDownProps {
@@ -15,12 +15,12 @@ const AddOns = ({ addOnDropDown, setAddOnDropDown }: addOnDropDownProps) => {
   }
 
   return (
-    <div className="mt-12 mb-8 w-11/12 mx-auto capitalize">
+    <div className="mt-12 mb-8 w-4/5 mx-auto capitalize">
       <h1 className="text-center font-semibold text-3xl ml:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl ">
         Additional Detailing & Cleaning Add Ons
       </h1>
       <span className="text-center text-3xl my-4 flex justify-center">
-        
+
         {addOnDropDown ? (
           <FontAwesomeIcon onClick={handleClick} icon={faCircleChevronUp} className="hover:text-emerald-400 hover:bg-white hover:rounded-full cursor-pointer" />
         ) : (

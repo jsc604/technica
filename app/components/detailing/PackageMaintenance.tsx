@@ -14,8 +14,8 @@ const PackageMaintenance = ({ infoDropDown, setinfoDropDown }: infoDropDownProps
   }
 
   return (
-    <div>
-      <div className="mx-auto w-11/12 mb-12 text-center">
+    <div className="w-4/5 mx-auto">
+      <div className="mx-auto mb-12 text-center">
         <button className="text-slate-300 rounded-full mx-auto hover:underline" onClick={handleClick}>
           Learn More{' '}
           {infoDropDown ? (
@@ -36,7 +36,7 @@ const PackageMaintenance = ({ infoDropDown, setinfoDropDown }: infoDropDownProps
         )}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 w-11/12 mx-auto mb-12">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mx-auto mb-12">
         <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-slate-300 bg-black">
           <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-slate-300 text-black">Complete Maintenance Detail</h2>
           <h2 className="text-center text-3xl mt-8">$150</h2>
