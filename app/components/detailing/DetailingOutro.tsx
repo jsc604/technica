@@ -5,7 +5,7 @@ import lexus from '../../../assets/images/lexus-front2.jpeg';
 
 const DetailingOutro = () => {
   return (
-    <section className="mx-auto text-center my-16">
+    <div className="mx-auto text-center my-16">
       <div className="w-11/12 mx-auto items-center">
         <h2 className="font-semibold text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl my-4">Book Your Appointment Today</h2>
         <h2 className="text-xl lg:text-2xl 2xl:text-3xl mt-4 mb-12 capitalize">Leave the mess for us! Professional detailing services available</h2>
@@ -22,7 +22,7 @@ const DetailingOutro = () => {
           <Image className="w-full h-full object-cover hover:scale-110 ease-in duration-200" src={lexus} width={1600} height={1204} alt="lexus" />
         </div>
       </div>
-    </section>
+    </div>
   )
 };
 

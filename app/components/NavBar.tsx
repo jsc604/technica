@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <section className="bg-black">
+    <div className="bg-black">
       <nav className="w-5/6 flex items-center justify-center md:justify-between mx-auto text-center py-2">
         <div className="w-1/6">
           <Link href="#">
@@ -52,7 +52,7 @@ const Navbar = () => {
           </div>
         )}
       </nav>
-    </section>
+    </div>
   )
 };
 

@@ -1,6 +1,6 @@
 const BookingProcess = () => {
   return (
-    <section>
+    <div>
       {/* "Step 1: Choose Your Ideal Detailing Package"
       Explore our range of expertly crafted detailing packages, designed to cater to different needs and budgets. Select the package that best suits your vehicle's requirements and the level of care you desire.
 
@@ -9,7 +9,7 @@ const BookingProcess = () => {
 
       "Step 3: Confirm Your Booking and Prepare for Transformation"
       Once you've chosen your package and scheduled the appointment, confirm your booking, and get ready to witness the stunning transformation of your vehicle. Our team of professionals is eager to provide you with unparalleled results and exceptional service. */}
-    </section>
+    </div>
   )
 };
 

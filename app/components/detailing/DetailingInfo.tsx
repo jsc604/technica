@@ -12,7 +12,7 @@ interface DetailingInfoProps {
 
 const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
   return (
-    <section className="mx-auto text-center">
+    <div className="mx-auto text-center">
       <div className="w-11/12 mx-auto my-20">
         <h2 className="font-semibold text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl my-4 ">Carefully Curated Packages</h2>
         <h2 className="text-xl lg:text-2xl 2xl:text-3xl mt-4 mb-12">Designed to rejuvenate your vehicle and make it the envy of everyone on the road</h2>
@@ -61,7 +61,7 @@ const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
           <p className="w-11/12 mx-auto">Experience the unparalleled freshness of a deep interior clean as our expert car detailing team revives your ride, making it feel like new. <br/> <Link href="/book" className="underline text-blue-400">Book your appointment now</Link> and elevate your driving experience.</p>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 

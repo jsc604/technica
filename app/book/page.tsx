@@ -3,9 +3,9 @@ import BookingForm from "../components/book/BookingForm";
 const Book = () => {
 
   return (
-    <section>
+    <div>
       <BookingForm />
-    </section>
+    </div>
   );
 };
 

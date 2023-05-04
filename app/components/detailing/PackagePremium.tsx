@@ -14,7 +14,7 @@ const PackagePremium = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =>
   }
 
   return (
-    <section>
+    <div>
       <div className="mx-auto w-11/12 mb-12 text-center">
         <button className="text-yellow-300 rounded-full mx-auto hover:underline" onClick={handleClick}>
           Learn More{' '}
@@ -101,7 +101,7 @@ const PackagePremium = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 };
 

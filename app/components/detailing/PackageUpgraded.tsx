@@ -14,7 +14,7 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
   }
 
   return (
-    <section>
+    <div>
       <div className="mx-auto w-11/12 mb-12 text-center">
         <button className="text-blue-300 rounded-full mx-auto hover:underline" onClick={handleClick}>
           Learn More{' '}
@@ -90,7 +90,7 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 };
 
