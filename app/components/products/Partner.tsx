@@ -55,7 +55,7 @@ const Partner: React.FC<partnerProps> = ({ website, logo, alt, description, face
       <div className="flex items-center justify-center my-2">
         {facebook && (
           <Link href={facebook} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center text-facebook mx-1">
-            <i className="fa-brands fa-facebook fa-xl hover:animate-bounce"></i>
+            <i className="fa-brands fa-facebook fa-xl"></i>
           </Link>
         )}
         {instagram && (
@@ -65,11 +65,11 @@ const Partner: React.FC<partnerProps> = ({ website, logo, alt, description, face
         )}
         {twitter && (
           <Link href={twitter} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center text-twitter mx-1">
-            <i className="fa-brands fa-twitter fa-xl hover:animate-bounce"></i>
+            <i className="fa-brands fa-twitter fa-xl"></i>
           </Link>
         )}
         {youtube && (<Link href={youtube} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center text-youtube mx-1">
-          <i className="fa-brands fa-youtube fa-xl hover:animate-bounce"></i>
+          <i className="fa-brands fa-youtube fa-xl"></i>
         </Link>
         )}
       </div>
