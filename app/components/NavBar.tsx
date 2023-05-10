@@ -27,7 +27,7 @@ const Navbar = () => {
             <li className="pl-7"><Link className="hover:text-blue-400" href="/products">Products & Community</Link></li>
             <li className="pl-7"><Link className="hover:text-blue-400" href="/about">About</Link></li>
             <li className="pl-7"><Link className="hover:text-blue-400" href="/contact">Contact</Link></li>
-            <li className="pl-7"><Link href="/book" className="border border-white rounded-md py-0 px-3 hover:bg-blue-500 hover:border-blue-500">Book</Link></li>
+            <li className="pl-7"><Link href="/book" className="rounded-full py-1.5 px-3.5 bg-blue-500 hover:bg-blue-400">Book</Link></li>
           </ul>
         </div>
         {!sidebarVisible && (
