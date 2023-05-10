@@ -1,7 +1,7 @@
 import Link from "next/link";
 import GalleryCarousel from "./GalleryCarousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAward, faCertificate, faCircleCheck, faClock, faMoneyBillTrendUp, faTrophy } from "@fortawesome/free-solid-svg-icons";
+import { faAward, faClock, faMoneyBillTrendUp, faTrophy } from "@fortawesome/free-solid-svg-icons";
 
 const HomeInfo = () => {
   return (
