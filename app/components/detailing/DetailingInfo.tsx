@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import skylineSide from '../../../assets/images/skyline-side.jpeg';
 import lexusFront from '../../../assets/images/lexus-front.jpeg';
+import c2 from '../../../assets/images/chevelle interior.jpeg';
 const infinitiInterior = 'https://images.unsplash.com/photo-1587350811436-9063f1c48ea4';
 
 interface DetailingInfoProps {
@@ -45,20 +46,20 @@ const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
             <Image className="w-full h-full object-cover hover:scale-110 ease-in duration-200" src={lexusFront} width={1600} height={1248} alt="lexux front" />
           </div>
           <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl">
-            <Image className="w-full h-full object-cover hover:scale-110 ease-in duration-200" src={infinitiInterior} width={1039} height={693} alt="infiniti interior" />
+            <Image className="w-full h-full object-cover hover:scale-110 ease-in duration-200" src={skylineSide} width={1600} height={1204} alt="skyline side" />
           </div>
         </div>
       </div>
 
       <div className="grid ml:grid-cols-2 gap-6 w-11/12 mx-auto my-20">
         <div className="ml:col-span-1 rounded-2xl sm:rounded-3xl bg-black max-h-96 xl:max-h-104 2xl:max-h-128 relative overflow-hidden">
-          <Image className="w-full h-full object-cover hover:scale-110 ease-in duration-200" src={skylineSide} width={1600} height={1204} alt="skyline side" />
+          <Image className="w-full h-full object-cover hover:scale-110 ease-in duration-200" src={c2} width={2048} height={1366} alt="chevelle interior" />
         </div>
         <div className="ml:col-span-1 rounded-2xl sm:rounded-3xl bg-black my-auto h-full flex flex-col justify-center max-ml:order-first">
           <h3 className="capitalize text-center text-2xl sm:text-3xl ml:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-semibold p-8 bg-gradient-to-r from-slate-300 via-blue-300 to-yellow-300 bg-clip-text text-transparent">
             revive your ride with a deep interior clean
           </h3>
-          <p className="w-11/12 mx-auto">Experience the unparalleled freshness of a deep interior clean as our expert car detailing team revives your ride, making it feel like new. <br/> <Link href="/book" className="underline text-blue-400">Book your appointment now</Link> and elevate your driving experience.</p>
+          <p className="w-11/12 mx-auto">Experience the unparalleled freshness of a deep interior clean as our expert car detailing team revives your ride, making it feel like new. <br /> <Link href="/book" className="underline text-blue-400">Book your appointment now</Link> and elevate your driving experience.</p>
         </div>
       </div>
     </div>

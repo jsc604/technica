@@ -1,15 +1,18 @@
-import tshirt from '../../assets/images/tshirt.jpeg';
-import c1 from '../../assets/images/chevelle driver side.jpeg'
-import c2 from '../../assets/images/chevelle interior.jpeg';
-import c3 from '../../assets/images/chevelle side.jpeg';
+'use client'
+
+import { useState } from 'react';
 import TopContactWrapper from '../components/contact/TopContactWrapper';
 import ContactForm from '../components/contact/ContactForm';
+import ConfirmRequest from '../components/contact/ConfirmRequest';
 
 const Contact = () => {
+  const [submitted, setSubmitted] = useState<boolean>(true);
+
   return (
     <div className="mt-8">
       <TopContactWrapper />
-      <ContactForm />
+      {!submitted && <ContactForm setSubmitted={setSubmitted} />}
+      {submitted && <ConfirmRequest />}
     </div>
   )
 };

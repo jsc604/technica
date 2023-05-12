@@ -24,8 +24,11 @@ import bentleyBack from '../../../assets/images/bentley back.jpg';
 import skylineFront from '../../../assets/images/skyline front.jpeg';
 import camaro2 from '../../../assets/images/camaro 2.jpeg';
 import bentley from '../../../assets/images/bentley3.png';
+import c1 from '../../../assets/images/chevelle driver side.jpeg'
+import c2 from '../../../assets/images/chevelle interior.jpeg';
+import c3 from '../../../assets/images/chevelle side.jpeg';
 
-const images = [bentley, bentleyBack, corvette, cayenneIntRear, teslaY, benzFront, benzWheel, biturbo, lexusFront, lexus, skylineFront, skylineSide, camaro2, ram];
+const images = [bentley, bentleyBack, corvette, cayenneIntRear, cayenneTrunk, c3, c1, c2, teslaY, benzFront, benzWheel, biturbo, lexusFront, lexus, skylineFront, skylineSide, camaro2, ram];
 
 const GalleryCarousel = () => {
 
