@@ -34,6 +34,7 @@ module.exports = {
       },
       screens: {
         'ml': '900px',
+        '3xl': '1800px',
       },
       colors: {
         'font': '#EDEDED',
