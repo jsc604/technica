@@ -11,7 +11,7 @@ import Disclaimer from "../components/detailing/Disclaimer";
 import AddOns from "../components/detailing/AddOns";
 import DetailingOutro from "../components/detailing/DetailingOutro";
 
-import spray from '../../assets/images/spray-wheel.jpeg';
+import detailer from '../../assets/images/ceramicCoating.jpeg';
 
 export default function Detailing() {
   const [selected, setSelected] = useState('upgraded');
@@ -20,7 +20,7 @@ export default function Detailing() {
 
   return (
     <main>
-      <TitleBanner image={spray} alt="technica automotive wheel detail" heading='Exceptional Detailing Services' />
+      <TitleBanner image={detailer} alt="automotivee detailing" heading="Exceptional Detailing Services" />
       <DetailingInfo setSelected={setSelected} />
       <PackageChooser selected={selected} setSelected={setSelected} />
       {selected === 'maintenance' && <PackageMaintenance infoDropDown={infoDropDown} setinfoDropDown={setinfoDropDown} />}

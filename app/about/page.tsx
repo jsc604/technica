@@ -5,8 +5,8 @@ import owner from '../../assets/images/owner.png';
 const About = () => {
   return (
     <div>
-      <h1 className="mt-8 mb-2 font-bold text-4xl text-center">About Us</h1>
-      <div className="grid md:grid-cols-2 w-11/12 mx-auto mt-8 my-32 gap-8">
+      <h1 className="mt-8 font-semibold text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center">About Us</h1>
+      <div className="grid ml:grid-cols-2 w-11/12 mx-auto mt-4 my-32 gap-8">
         <div className="max-md:mx-auto md:mr-auto mt-8 h-full">
           <Image src={owner} height={2396} width={2093} alt="owner" layout="responsive" className="grayscale" />
         </div>

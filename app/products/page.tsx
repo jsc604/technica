@@ -1,7 +1,7 @@
 import TitleBanner from "../components/TitleBanner";
 import Partner from "../components/products/Partner";
 
-import detailer from '../../assets/images/ceramicCoating.jpeg';
+import spray from '../../assets/images/spray-wheel.jpeg';
 import jsAuto from '../../assets/partners/js Auto.jpeg';
 import bigFatGraphic from '../../assets/partners/Big Fat Grapic House.jpeg';
 import labcosmetica from '../../assets/partners/labcosmetica.jpeg';
@@ -13,7 +13,7 @@ import partner3m from '../../assets/partners/3m.png';
 const Products = () => {
   return (
     <div>
-      <TitleBanner image={detailer} alt="detailing" heading="Partners & Brands We Trust" />
+      <TitleBanner image={spray} alt="technica automotive wheel detail" heading='Partners & Brands We Trust' />
       <div className="grid ml:grid-cols-2 xl:grid-cols-3 w-11/12 mx-auto gap-6 mt-20">
         <Partner
           logo={jsAuto}
