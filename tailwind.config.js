@@ -28,6 +28,7 @@ module.exports = {
         '70vh': '70vh',
         '60vh': '60vh',
         '50vh': '50vh',
+        '45vh': '45vh',
         '40vh': '40vh',
         '30vh': '30vh',
         '20vh': '20vh',
