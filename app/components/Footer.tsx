@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="my-4 text-sm font-light flex flex-col items-center md:justify-between w-screen mx-auto bg-black">
       <div className="mx-auto grid ml:grid-cols-2">
-        <div className="col-span-1 flex flex-col justify-center items-center p-8 text-lg md:text-xl text-center h-45vh ml:h-40vh lg:h-50vh">
+        <div className="col-span-1 flex flex-col justify-center items-center p-8 text-lg md:text-xl text-center h-50vh">
           <Image src={logo} width={1475} height={494} alt="technica automotive" className='w-2/5 mb-4' />
           <div className='mt-4 hover:text-green-500 hover:underline'>
             <FontAwesomeIcon icon={faLocationPin} size="lg" />{" "}
@@ -53,7 +53,7 @@ const Footer = () => {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="w-11/12 ml:w-full h-40vh ml:h-40vh lg:h-50vh mx-auto h-full"
+          className="w-11/12 ml:w-full h-50vh  mx-auto h-full"
         >
         </iframe>
       </div>
