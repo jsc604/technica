@@ -50,9 +50,9 @@ const Footer = () => {
 
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.1923438601534!2d-122.7957161235987!3d49.02594867135539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485c31c05677515%3A0x383eb51ed351cb66!2sTechnica%20Automotive!5e0!3m2!1sen!2sca!4v1683954938942!5m2!1sen!2sca"
-          allowfullscreen
+          allowFullScreen
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
           className="w-11/12 ml:w-full h-45vh ml:h-40vh lg:h-50vh mx-auto h-full"
         >
         </iframe>
