@@ -11,9 +11,9 @@ const TopContactWrapper = () => {
           <h1 className="font-semibold text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-4">
             Contact Us
           </h1>
-          <div className='w-screen lg:hidden'>
-        <Image src={tshirt} width={1440} height={960} alt="technica automotice contact" />
-      </div>
+          <div className='w-screen lg:hidden mb-4'>
+            <Image src={tshirt} width={1440} height={960} alt="technica automotice contact" />
+          </div>
           <div className='text-xl 3xl:text-2xl'>
             Want to get in touch? We&apos;d Love to Hear From You!
           </div>
