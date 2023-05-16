@@ -5,7 +5,6 @@ import Image from "next/image";
 import skylineSide from '../../../assets/images/skyline-side.jpeg';
 import lexusFront from '../../../assets/images/lexus-front.jpeg';
 import c2 from '../../../assets/images/chevelle interior.jpeg';
-const infinitiInterior = 'https://images.unsplash.com/photo-1587350811436-9063f1c48ea4';
 
 interface DetailingInfoProps {
   setSelected: Dispatch<SetStateAction<string>>;
@@ -17,7 +16,7 @@ const DetailingInfo = ({ setSelected }: DetailingInfoProps) => {
       <div className="w-11/12 mx-auto my-20">
         <h2 className="font-semibold text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl my-4 ">Carefully Curated Packages</h2>
         <h2 className="text-xl lg:text-2xl 2xl:text-3xl mt-4 mb-12">Designed to rejuvenate your vehicle and make it the envy of everyone on the road</h2>
-        <Link href="/" className="bg-blue-500 py-1.5 px-3.5 rounded-full hover:bg-blue-400">Book Now</Link>
+        <Link href="/book" className="bg-blue-500 py-1.5 px-3.5 rounded-full hover:bg-blue-400">Book Now</Link>
       </div>
       <div className="grid grid-cols-1 ml:grid-cols-5 gap-6 w-11/12 mx-auto">
         <div className="ml:col-span-3 bg-black rounded-2xl sm:rounded-3xl my-auto h-full flex flex-col justify-evenly">

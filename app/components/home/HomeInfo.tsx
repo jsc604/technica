@@ -10,7 +10,7 @@ const HomeInfo = () => {
         
         <h1 className="text-5xl font-bold">Technica Automotive</h1>
         <h2 className="text-2xl font-semibold">Detailing, Paint Correction, and Ceramic Coating</h2>
-        <Link href="/book" className="bg-blue-500 py-1.5 px-3.5 my-4 rounded-full hover:bg-blue-400">Book Now</Link>
+        <Link href="/book" className="bg-blue-500 py-1.5 px-3.5 rounded-full hover:bg-blue-400 my-4">Book Now</Link>
         <h2 className="text-2xl font-semibold my-4">What makes Technica Automotive a good choice?</h2>
 
         <div className="text-xl mx-auto text-start">
