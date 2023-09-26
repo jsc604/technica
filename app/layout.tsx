@@ -1,5 +1,5 @@
 import './globals.css'
-import PromotionBanner from './components/PromotionBanner'
+// import PromotionBanner from './components/PromotionBanner'
 import Navbar from './components/NavBar';
 import Footer from './components/Footer';
 
@@ -32,7 +32,7 @@ export default function RootLayout({
       <body>
         <ContactBanner />
         <Navbar />
-        <PromotionBanner />
+        {/* <PromotionBanner /> */}
         {children}
         <Footer />
       </body>
