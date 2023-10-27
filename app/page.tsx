@@ -13,7 +13,6 @@ async function getReviews() {
   if (!res.ok) {
     throw new Error('Failed to fetch reviews');
   }
-
   return res.json();
 }
 
@@ -25,7 +24,7 @@ export default async function Home() {
       <TopCall />
       <HomeInfo />
       <Reviews reviewData={reviews} />
-      {/* <iframe src="https://orbisx.ca/app/embed-greviews/VSV93" name="gReviewsEmbedCode" scrolling="yes" frameBorder="0" height="820px" width="80%" className='mx-auto bg-black'></iframe> */}
+      {/* <iframe src="https://orbisx.ca/app/embed-greviews/VSV93" name="gReviewsEmbedCode" scrolling="yes" frameBorder="0" height="1000px" width="80%" className='mx-auto bg-background'></iframe> */}
     </main>
   )
 }

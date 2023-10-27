@@ -29,11 +29,10 @@ interface StarRatingProps {
 
 const Reviews: React.FC<ReviewsCarouselProps> = ({ reviewData }) => {
 
-  const reviews = reviewData.result.reviews;
-  const rating = reviewData.result.rating;
-  const totalRaters = reviewData.result.user_ratings_total;
-  console.log('reviewData', reviewData);
-
+  const reviews = reviewData?.result?.reviews;
+  const rating = reviewData?.result?.rating;
+  const totalRaters = reviewData?.result?.user_ratings_total;
+  
   const StarRating: React.FC<StarRatingProps> = ({ rating }) => {
     const stars = [];
 
