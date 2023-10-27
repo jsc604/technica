@@ -8,6 +8,7 @@ const BookingForm = () => {
         className="mx-auto rounded-3xl w-screen h-screen mt-8"
         name="OrbisXbookingForm"
         id="OrbisXbookingForm"
+        height="100vh"
       ></iframe>
   );
 };
