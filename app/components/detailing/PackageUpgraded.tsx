@@ -1,4 +1,9 @@
-import { faCaretDown, faChevronDown, faChevronUp, faClock } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCaretDown,
+  faChevronDown,
+  faChevronUp,
+  faClock,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Dispatch, SetStateAction } from "react";
 
@@ -7,17 +12,22 @@ interface infoDropDownProps {
   setinfoDropDown: Dispatch<SetStateAction<boolean>>;
 }
 
-const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) => {
-
+const PackageUpgraded = ({
+  infoDropDown,
+  setinfoDropDown,
+}: infoDropDownProps) => {
   const handleClick = () => {
     setinfoDropDown(!infoDropDown);
-  }
+  };
 
   return (
     <div className="w-4/5 mx-auto">
       <div className="mx-auto mb-12 text-center">
-        <button className="text-blue-300 rounded-full mx-auto hover:underline" onClick={handleClick}>
-          Learn More{' '}
+        <button
+          className="mx-auto text-blue-300 rounded-full hover:underline"
+          onClick={handleClick}
+        >
+          Learn More{" "}
           {infoDropDown ? (
             <FontAwesomeIcon icon={faChevronUp} />
           ) : (
@@ -26,23 +36,28 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
         </button>
         {infoDropDown && (
           <p>
-            Our Upgraded package takes vehicle care to the next level, combining the
-            essential services of the Maintenance package with additional treatments for
-            a more thorough and enhanced result. This package includes a complete
-            detailing addressing minor scratches and imperfections while restoring the
-            vehicle&apos;s original shine.  With our Upgraded package, your car
-            will not only look clean but also feel revitalized, making it the perfect
-            choice for those seeking a more comprehensive detailing experience.
+            Our Upgraded package takes vehicle care to the next level, combining
+            the essential services of the Maintenance package with additional
+            treatments for a more thorough and enhanced result. This package
+            includes a complete detailing addressing minor scratches and
+            imperfections while restoring the vehicle&apos;s original shine.
+            With our Upgraded package, your car will not only look clean but
+            also feel revitalized, making it the perfect choice for those
+            seeking a more comprehensive detailing experience.
           </p>
         )}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mx-auto mb-12">
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-300 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-300 text-black">Complete Upgraded Detail</h2>
-          <h2 className="text-center text-3xl mt-8">$350</h2>
-          <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 3.5 hours</p>
-          <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
+      <div className="grid grid-cols-1 gap-12 mx-auto mb-12 lg:grid-cols-3">
+        <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-blue-300">
+          <h2 className="p-4 text-xl font-semibold text-center text-black bg-blue-300 rounded-t-2xl sm:rounded-t-3xl">
+            Complete Upgraded Detail
+          </h2>
+          {/* <h2 className="mt-8 text-3xl text-center">$350</h2> */}
+          <p className="mt-6 mb-4 text-sm font-light text-center">
+            <FontAwesomeIcon icon={faClock} /> Approximately 3.5 hours
+          </p>
+          <div className="grid grid-cols-1 p-4 pb-8 mx-auto sm:max-lg:grid-cols-2 w-fit">
             <li>Exterior Wash</li>
             <li>Wheels Washed</li>
             <li>Tire Dressing</li>
@@ -60,11 +75,15 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
             <li>Rubber Mats Detailed</li>
           </div>
         </div>
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-300 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-300 text-black">Upgraded Interior Detail</h2>
-          <h2 className="text-center text-3xl mt-8">$200</h2>
-          <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 2 hours</p>
-          <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
+        <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-blue-300">
+          <h2 className="p-4 text-xl font-semibold text-center text-black bg-blue-300 rounded-t-2xl sm:rounded-t-3xl">
+            Upgraded Interior Detail
+          </h2>
+          {/* <h2 className="mt-8 text-3xl text-center">$200</h2> */}
+          <p className="mt-6 mb-4 text-sm font-light text-center">
+            <FontAwesomeIcon icon={faClock} /> Approximately 2 hours
+          </p>
+          <div className="grid grid-cols-1 p-4 pb-8 mx-auto sm:max-lg:grid-cols-2 w-fit">
             <li>Surfaces Wiped</li>
             <li>Windows Cleaned</li>
             <li>Door Jams Cleaned</li>
@@ -75,11 +94,15 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
             <li>Rubber Mats Detailed</li>
           </div>
         </div>
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-blue-300 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-blue-300 text-black">Upgraded Exterior Detail</h2>
-          <h2 className="text-center text-3xl mt-8">$185</h2>
-          <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 2 hours</p>
-          <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
+        <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-blue-300">
+          <h2 className="p-4 text-xl font-semibold text-center text-black bg-blue-300 rounded-t-2xl sm:rounded-t-3xl">
+            Upgraded Exterior Detail
+          </h2>
+          {/* <h2 className="mt-8 text-3xl text-center">$185</h2> */}
+          <p className="mt-6 mb-4 font-light text-center first-letter:text-sm ">
+            <FontAwesomeIcon icon={faClock} /> Approximately 2 hours
+          </p>
+          <div className="grid grid-cols-1 p-4 pb-8 mx-auto sm:max-lg:grid-cols-2 w-fit">
             <li>Exterior Wash</li>
             <li>Wheels Washed</li>
             <li>Tire Dressing</li>
@@ -91,7 +114,7 @@ const PackageUpgraded = ({ infoDropDown, setinfoDropDown }: infoDropDownProps) =
         </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default PackageUpgraded;

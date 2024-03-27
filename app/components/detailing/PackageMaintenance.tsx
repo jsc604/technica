@@ -16,7 +16,7 @@ const PackageMaintenance = ({ infoDropDown, setinfoDropDown }: infoDropDownProps
   return (
     <div className="w-4/5 mx-auto">
       <div className="mx-auto mb-12 text-center">
-        <button className="text-slate-300 rounded-full mx-auto hover:underline" onClick={handleClick}>
+        <button className="mx-auto rounded-full text-slate-300 hover:underline" onClick={handleClick}>
           Learn More{' '}
           {infoDropDown ? (
             <FontAwesomeIcon icon={faChevronUp} />
@@ -36,12 +36,12 @@ const PackageMaintenance = ({ infoDropDown, setinfoDropDown }: infoDropDownProps
         )}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mx-auto mb-12">
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-slate-300 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-slate-300 text-black">Complete Maintenance Detail</h2>
-          <h2 className="text-center text-3xl mt-8">$150</h2>
-          <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 1.5 hours</p>
-          <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
+      <div className="grid grid-cols-1 gap-12 mx-auto mb-12 lg:grid-cols-3">
+        <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-slate-300">
+          <h2 className="p-4 text-xl font-semibold text-center text-black rounded-t-2xl sm:rounded-t-3xl bg-slate-300">Complete Maintenance Detail</h2>
+          {/* <h2 className="mt-8 text-3xl text-center">$150</h2> */}
+          <p className="mt-6 mb-4 text-sm font-light text-center"><FontAwesomeIcon icon={faClock} /> Approximately 1.5 hours</p>
+          <div className="grid grid-cols-1 p-4 pb-8 mx-auto sm:max-lg:grid-cols-2 w-fit">
             <li>Exterior Wash</li>
             <li>Wheels Washed</li>
             <li>Tire Dressing</li>
@@ -52,22 +52,22 @@ const PackageMaintenance = ({ infoDropDown, setinfoDropDown }: infoDropDownProps
             <li>Dry Vacuum (Including Trunk)</li>
           </div>
         </div>
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-slate-300 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-slate-300 text-black">Maintenance Interior Detail</h2>
-          <h2 className="text-center text-3xl mt-8">$80</h2>
-          <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately 1 hour</p>
-          <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
+        <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-slate-300">
+          <h2 className="p-4 text-xl font-semibold text-center text-black rounded-t-2xl sm:rounded-t-3xl bg-slate-300">Maintenance Interior Detail</h2>
+          {/* <h2 className="mt-8 text-3xl text-center">$80</h2> */}
+          <p className="mt-6 mb-4 text-sm font-light text-center"><FontAwesomeIcon icon={faClock} /> Approximately 1 hour</p>
+          <div className="grid grid-cols-1 p-4 pb-8 mx-auto sm:max-lg:grid-cols-2 w-fit">
             <li>Surfaces Wiped</li>
             <li>Windows Cleaned</li>
             <li>Door Jams Cleaned</li>
             <li>Dry Vacuum (Including Trunk)</li>
           </div>
         </div>
-        <div className="rounded-2xl sm:rounded-3xl shadow-full shadow-slate-300 bg-black">
-          <h2 className="font-semibold text-xl text-center p-4 rounded-t-2xl sm:rounded-t-3xl bg-slate-300 text-black">Maintenance Exterior Detail</h2>
-          <h2 className="text-center text-3xl mt-8">$80</h2>
-          <p className="font-light text-sm text-center mb-4"><FontAwesomeIcon icon={faClock} /> Approximately  1 hour</p>
-          <div className="p-4 pb-8 grid grid-cols-1 sm:max-lg:grid-cols-2 w-fit mx-auto">
+        <div className="bg-black rounded-2xl sm:rounded-3xl shadow-full shadow-slate-300">
+          <h2 className="p-4 text-xl font-semibold text-center text-black rounded-t-2xl sm:rounded-t-3xl bg-slate-300">Maintenance Exterior Detail</h2>
+          {/* <h2 className="mt-8 text-3xl text-center">$80</h2> */}
+          <p className="mt-6 mb-4 text-sm font-light text-center"><FontAwesomeIcon icon={faClock} /> Approximately  1 hour</p>
+          <div className="grid grid-cols-1 p-4 pb-8 mx-auto sm:max-lg:grid-cols-2 w-fit">
             <li>Exterior Wash</li>
             <li>Wheels Washed</li>
             <li>Tire Dressing</li>

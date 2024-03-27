@@ -6,10 +6,10 @@ interface AddOnItemProps {
 
 const AddOnItems = ({ title, price, description }: AddOnItemProps) => {
   return (
-    <div className="my-8 p-4 sm:mx-8">
+    <div className="p-4 my-8 sm:mx-8">
       <div className="flex justify-between">
-        <h2 className="font-semibold mr-8">{title}</h2>
-        <p className="text-end">{price}</p>
+        <h2 className="mr-8 font-semibold">{title}</h2>
+        {/* <p className="text-end">{price}</p> */}
       </div>
       <p className="font-light">{description}</p>
     </div>
