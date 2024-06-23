@@ -14,7 +14,7 @@ const Products = () => {
   return (
     <div>
       <TitleBanner image={spray} alt="technica automotive wheel detail" heading='Partners & Brands We Trust' />
-      <div className="grid ml:grid-cols-2 xl:grid-cols-3 w-11/12 mx-auto gap-6 mt-20">
+      <div className="grid w-11/12 gap-6 mx-auto mt-20 ml:grid-cols-2 xl:grid-cols-3">
         <Partner
           logo={jsAuto}
           website='https://www.autodetailsupplies.ca/'
@@ -30,20 +30,6 @@ const Products = () => {
           email="sales@autodetailsupplies.ca"       
         />
         <Partner
-          logo={bigFatGraphic}
-          website='https://www.bfgh.ca/'
-          alt='Big Fat Graphic House'
-          description={`Big Fat Graphic House is dedicated to providing you with quality printing and embroidery at affordable prices. Whether your business is large or small, a charitable organization, a local band, or an individual looking for custom clothing, we can assist you with all your apparel needs`}
-          facebook="https://www.facebook.com/bfgh.ca/"
-          instagram="https://www.instagram.com/bigfatgraphichouse/"
-          twitter="https://twitter.com/BigFat_Graphics"
-          youtube="https://www.youtube.com/channel/UCvECjnEGSi3hdRCqG6pPRNQ"
-          location="19288 22 Ave #180, Surrey, BC, Canada, British Columbia"       
-          locationLink="https://goo.gl/maps/45resJjC1XhiWwBP6"       
-          phone="(604) 538-6478"       
-          email="orders@bfgh.ca"       
-        />
-        <Partner
           logo={labcosmetica}
           website='https://www.labocosmetica.com/'
           alt='labocosmetica ceramic coating'
@@ -56,20 +42,6 @@ const Products = () => {
           locationLink="https://goo.gl/maps/WqV48Z5rh4FczYuw6"       
           phone="+39 02 356 9981"       
           email="info@labocosmetica.it"       
-        />
-        <Partner
-          logo={zombie}
-          website=""
-          alt='Zombie Auto Care'
-          description='JS Auto Detail, our trusted partner, specializes in high-quality car care services tailored to meet individual needs. Their team of skilled professionals utilizes cutting-edge techniques and environmentally-friendly products to deliver exceptional results, transforming your vehicle to its showroom-ready appearance. Experience the remarkable difference and unmatched customer satisfaction that comes from partnering with JS Auto Detail for your vehicle&apos;s maintenance and rejuvenation.'
-          facebook=""
-          instagram="https://www.instagram.com/zombieautocare/?igshid=YmMyMTA2M2Y%3D"
-          twitter=""
-          youtube=""
-          location=""       
-          locationLink=""       
-          phone=""       
-          email=""       
         />
         <Partner
           logo={rupes}

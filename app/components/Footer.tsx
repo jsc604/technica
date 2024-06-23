@@ -7,9 +7,9 @@ import { faLocationPin, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-
 
 const Footer = () => {
   return (
-    <footer className="my-4 text-sm font-light flex flex-col items-center md:justify-between w-screen mx-auto bg-black">
-      <div className="mx-auto grid ml:grid-cols-2">
-        <div className="col-span-1 flex flex-col justify-center items-center p-8 text-lg md:text-xl text-center h-50vh">
+    <footer className="flex flex-col items-center w-screen mx-auto my-4 text-sm font-light bg-black md:justify-between">
+      <div className="grid mx-auto ml:grid-cols-2">
+        <div className="flex flex-col items-center justify-center col-span-1 p-8 text-lg text-center md:text-xl h-50vh">
           <Image src={logo} width={1475} height={494} alt="technica automotive" className='w-2/5 mb-4' />
           <div className='mt-4 hover:text-green-500 hover:underline'>
             <FontAwesomeIcon icon={faLocationPin} size="lg" />{" "}
@@ -24,7 +24,7 @@ const Footer = () => {
             <span>TechnicaAutomotive@gmail.com</span>
           </div>
           <div className='mt-6'>
-            <div className='font-semibold text-xl md:text-2xl'>Follow Us</div>
+            <div className='text-xl font-semibold md:text-2xl'>Follow Us</div>
             <div className='flex'>
               <Link
                 href="https://www.facebook.com/TechnicaAutomotive/"
@@ -33,7 +33,7 @@ const Footer = () => {
                 <i className="fa-brands fa-facebook fa-xl text-facebook"></i>
               </Link>
               <Link
-                href="https://www.instagram.com/technicautomotive/"
+                href="https://www.instagram.com/technicaautomotive/"
                 target="_blank" rel="noopener noreferrer"
                 className='mx-8'>
                 <Image src={instaIcon} width={28} height={28} alt='Instagram icon' />
@@ -53,12 +53,12 @@ const Footer = () => {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="w-11/12 h-96 ml:w-full sm:h-50vh  mx-auto h-full"
+          className="w-11/12 h-full mx-auto h-96 ml:w-full sm:h-50vh"
         >
         </iframe>
       </div>
 
-      <div className="flex sm:flex-row flex-col text-center pt-4">
+      <div className="flex flex-col pt-4 text-center sm:flex-row">
         <p>Copyright &copy;2021 Technica Automotive&nbsp;</p>
         <p>- All Rights Reserved</p>
       </div>

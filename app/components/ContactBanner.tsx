@@ -5,7 +5,7 @@ import instaIcon from '../../assets/partners/instagramicon.webp';
 const ContactBanner = () => {
   return (
     <div className="border-b border-white">
-      <div className="flex max-md:flex-col md:justify-between w-11/12 mx-auto max-sm:text-sm align-center py-1 text-center">
+      <div className="flex w-11/12 py-1 mx-auto text-center max-md:flex-col md:justify-between max-sm:text-sm align-center">
         <div className="flex max-md:mx-auto max-sm:flex-col">
           <h2>+1-778-835-2118&#8194;</h2>
           <span className="hidden sm:block">|</span>
@@ -19,7 +19,7 @@ const ContactBanner = () => {
             <i className="fa-brands fa-facebook fa-xl text-facebook"></i>
           </Link>
           <Link
-            href="https://www.instagram.com/technicautomotive/"
+            href="https://www.instagram.com/technicaautomotive/"
             target="_blank" rel="noopener noreferrer"
             className="ml-4">
             <Image src={instaIcon} width={24} height={24} alt='Instagram icon' />
